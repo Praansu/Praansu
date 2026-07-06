@@ -1,18 +1,23 @@
-# Hi, I'm Praansu Karmacharya
+# Hello, I'm Praansu Karmacharya
 
-**Robotics & IoT Student** at Islington College / London Metropolitan University.
+**Aspiring AI Engineer** | Python · Machine Learning · Full-Stack
 
-I build smart systems that blend hardware (ESP32, sensors, actuators) with software (Python, FastAPI, real-time dashboards).
+I'm a student at **Islington College** passionate about building intelligent systems that solve real-world problems. I enjoy working across the stack — from designing backend APIs to training ML models and crafting clean frontend interfaces.
 
-## What I'm working on
+### Currently
 
-- **ParkX** — Smart parking system with ESP32, FastAPI, AI chatbot, and real-time monitoring
-- Exploring IoT, embedded systems, and full-stack development
+- Building **ParkX** — an AI-powered smart parking system with real-time monitoring and chatbot
+- Exploring machine learning, data-driven applications, and automation
+- Sharpening my skills in Python, FastAPI, and modern web technologies
 
-## Tech I use
+### Tech Stack
 
-Python | FastAPI | ESP32 | Arduino | JavaScript | SQLite | Blynk IoT
+`Python` `FastAPI` `JavaScript` `SQL` `Chart.js` `Arduino` `Git`
+
+### Let's connect
+
+[GitHub](https://github.com/Praansu) · [Email](mailto:Praansu12@gmail.com)
 
 ---
 
-*Currently pursuing CC4003NI — Fundamentals of Robotics and IoT*
+*Islington College · London Metropolitan University*
