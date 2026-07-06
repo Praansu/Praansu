@@ -1,22 +1,14 @@
-# Hello, I'm Praansu Karmacharya
+# Praansu Karmacharya
 
-**Aspiring AI Engineer** | Python · Machine Learning · Full-Stack
+Python developer working with FastAPI, data processing, and IoT systems. Currently studying at **Islington College**.
 
-I'm a student at **Islington College** passionate about building intelligent systems that solve real-world problems.
+I build projects that mix software and hardware — from REST APIs and real-time dashboards to embedded firmware. I focus on writing clean, working code and learning by building.
 
 ## Projects
 
-| Project | Description |
-|---------|-------------|
-| [ParkX](https://github.com/Praansu/ParkX) | Smart parking system with FastAPI, ESP32, AI chatbot, and real-time dashboard |
-| [Data Classifier](https://github.com/Praansu/data-classifier) | Python tool for automated data annotation and reclassification |
-| [EcoVerda](https://github.com/Praansu/eco-verda) | E-commerce website for eco-friendly and sustainable products |
-| [MyProjects](https://github.com/Praansu/MyProjects) | Collection of smaller learning projects and experiments |
-
-## Technologies
-
-`Python` `FastAPI` `JavaScript` `Data Processing` `REST APIs` `IoT`
-
----
-
-*Islington College · London Metropolitan University*
+| Project | What it is |
+|---------|------------|
+| [ParkX](https://github.com/Praansu/ParkX) | Smart parking system with real-time monitoring, AI chatbot, and booking |
+| [Data Classifier](https://github.com/Praansu/data-classifier) | Python script for structuring and categorising raw data |
+| [EcoVerda](https://github.com/Praansu/eco-verda) | E-commerce website for eco-friendly products (HTML/CSS/JS) |
+| [MyProjects](https://github.com/Praansu/MyProjects) | Smaller experiments — calculator apps, code snippets |
