@@ -2,21 +2,18 @@
 
 **Aspiring AI Engineer** | Python · Machine Learning · Full-Stack
 
-I'm a student at **Islington College** passionate about building intelligent systems that solve real-world problems. I enjoy working across the stack — from designing backend APIs to training ML models and crafting clean frontend interfaces.
+I'm a student at **Islington College** passionate about building intelligent systems. I enjoy working across the stack — from backend APIs to data processing and clean frontend interfaces.
 
-### Currently
+## Projects
 
-- Building **ParkX** — an AI-powered smart parking system with real-time monitoring and chatbot
-- Exploring machine learning, data-driven applications, and automation
-- Sharpening my skills in Python, FastAPI, and modern web technologies
+| Project | Description |
+|---------|-------------|
+| [ParkX](https://github.com/Praansu/ParkX) | Smart parking system with FastAPI, ESP32, AI chatbot, and real-time dashboard |
+| [MyProjects](https://github.com/Praansu/MyProjects) | Portfolio collection — web development, data classification, and Python scripting |
 
-### Tech Stack
+## Technologies
 
-`Python` `FastAPI` `JavaScript` `SQL` `Chart.js` `Arduino` `Git`
-
-### Let's connect
-
-[GitHub](https://github.com/Praansu) · [Email](mailto:Praansu12@gmail.com)
+`Python` `FastAPI` `JavaScript` `SQL` `Data Processing` `IoT`
 
 ---
 
