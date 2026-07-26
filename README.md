@@ -1,12 +1,18 @@
 <div align="center">
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B+I'm+Praansu;CS+Student+%7C+Builder+%7C+Learner" alt="typing" />
 
-  <p>
-    <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
-  </p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Praansu+Karmacharya;CS+Student+%7C+Builder+%7C+Learner;ML+%26+CV+Enthusiast" alt="Typing SVG" />
+
+<p><strong>CS Student at Islington College — I build stuff with code.</strong></p>
+
+<p>
+  <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Praansu"><img src="https://img.shields.io/badge/GitHub-%40Praansu-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Praansu&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="profile views" />
+</p>
+
+<hr width="60%" />
 </div>
 
 ## about me
