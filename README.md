@@ -1,15 +1,14 @@
 <div align="center">
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Praansu+Karmacharya;CS+Student+%7C+Builder+%7C+Learner;ML+%26+CV+Enthusiast" alt="Typing SVG" />
-  
-  <p><strong>CS Student at Islington College | Building things that matter with code</strong></p>
 
-  <!-- Social Badges -->
+  <p><strong>CS Student at Islington College — I break things, then fix them with code.</strong></p>
+
   <p>
     <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="https://github.com/Praansu"><img src="https://img.shields.io/badge/GitHub-%40Praansu-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-Praansu%20Karmacharya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-%40praansu-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+    <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
     <img src="https://komarev.com/ghpvc/?username=Praansu&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="profile views" />
   </p>
 
@@ -18,20 +17,16 @@
 
 ## 👨‍💻 About Me
 
-> *"I don't just learn — I build."*
+I'm a CS student at **Islington College, Kathmandu** who got into programming out of sheer curiosity — and it kind of took over my life. I spend most of my time building things with **Python, ML, and IoT**, occasionally fighting with dependency hell, and celebrating when things compile on the first try (rare, but it happens).
 
-I'm a Computer Science student at **Islington College, Kathmandu** who turns ideas into working software. My interests span **Machine Learning, Computer Vision, NLP, IoT, and full-stack development** — basically anything where Python can make a dent.
-
-- 🔭 I recently built **[ParkX](https://github.com/Praansu/ParkX)** — an IoT smart parking system with real-time dashboard
-- 🌱 Currently diving deep into **Deep Learning with PyTorch** and **RAG-based applications with LangChain**
-- 💡 I believe in **learning by doing** — every project teaches me something new
-- 🎯 **Goal:** Build impactful AI solutions that solve real-world problems
-- 🌐 **Portfolio:** [praansu.github.io](https://praansu.github.io)
-- 📫 **Reach me:** Praansu12@gmail.com
+- 🔭 Just finished **[ParkX](https://github.com/Praansu/ParkX)** — an IoT parking system. Wiring up an ESP32 at 2am was an experience.
+- 🌱 Diving deep into **Deep Learning** (PyTorch) and **RAG apps** (LangChain) — slowly, but surely.
+- 💡 I learn by doing. I've lost count of how many projects I started just to learn one thing.
+- 📫 **Praansu12@gmail.com** — always happy to chat about code, ideas, or college.
 
 <br />
 
-## 🚀 Featured Projects
+## 🚀 Projects I've Built
 
 <div align="center">
   <table>
@@ -39,20 +34,19 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
       <td width="50%">
         <h3 align="center">🅿️ ParkX</h3>
         <p align="center">
-          <em>Smart Parking System</em><br />
-          ESP32 + FastAPI + IoT real-time dashboard with AI chatbot & booking system
+          <em>Smart parking with ESP32 + FastAPI</em><br />
+          Real-time dashboard, IoT sensors, booking system, and a chatbot that actually works (most of the time).
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/ParkX"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-          <img src="https://img.shields.io/github/stars/Praansu/ParkX?style=flat-square" />
           <img src="https://img.shields.io/github/actions/workflow/status/Praansu/ParkX/ci.yml?style=flat-square&label=CI" />
         </p>
       </td>
       <td width="50%">
-        <h3 align="center">🚗 Vehicle Image Classifier</h3>
+        <h3 align="center">🚗 Vehicle Classifier</h3>
         <p align="center">
-          <em>CNN + Transfer Learning</em><br />
-          PyTorch-based classifier trained on 4K+ vehicle images using ResNet-18
+          <em>CNN with transfer learning</em><br />
+          Trained a ResNet-18 on 4K+ vehicle images. Took forever to get the hyperparameters right.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/vehicle-image-classifier"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -64,8 +58,8 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
       <td width="50%">
         <h3 align="center">📄 AI Doc Summarizer</h3>
         <p align="center">
-          <em>RAG-based PDF Q&A</em><br />
-          LangChain + ChromaDB + OpenAI + Streamlit — upload PDFs and ask questions
+          <em>PDF Q&A with RAG</em><br />
+          Upload PDFs and ask questions. Uses LangChain + ChromaDB under the hood. Still amazed this works.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/ai-doc-summarizer"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -74,8 +68,8 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
       <td width="50%">
         <h3 align="center">❤️ Health Guard ML</h3>
         <p align="center">
-          <em>Heart Disease Prediction</em><br />
-          XGBoost with SHAP explainability — understanding WHY matters
+          <em>Heart disease prediction</em><br />
+          XGBoost + SHAP — because knowing WHY a model says something is just as important as accuracy.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/health-guard-ml"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -84,10 +78,10 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
     </tr>
     <tr>
       <td width="50%">
-        <h3 align="center">🏷️ Vehicle Labeling Tool</h3>
+        <h3 align="center">🏷️ Labeling Tool</h3>
         <p align="center">
-          <em>Desktop Annotation App</em><br />
-          PyQt5 GUI — keyboard-first labeling for 17 vehicle types with SQLite backend
+          <em>Keyboard-first annotation</em><br />
+          PyQt5 app for labeling 17 vehicle types. Built it because manual labeling was driving me crazy.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/vehicle-labeling-tool"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -96,8 +90,8 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
       <td width="50%">
         <h3 align="center">🌿 EcoVerda</h3>
         <p align="center">
-          <em>E-Commerce Frontend</em><br />
-          Responsive eco-friendly store built with HTML5, CSS3, and vanilla JavaScript
+          <em>Eco-friendly store frontend</em><br />
+          Pure HTML/CSS/JS, fully responsive. No frameworks, just good old vanilla web dev.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/eco-verda"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -112,104 +106,54 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
 
 ## 🌐 Live Demos
 
-| Project | Demo Link | Status |
-|---------|-----------|--------|
-| 🌿 EcoVerda | [praansu.github.io/eco-verda](https://praansu.github.io/eco-verda) | ✅ Live |
-| 🧮 JS Calculator | [praansu.github.io/js-calculator](https://praansu.github.io/js-calculator) | ✅ Live |
-| 👤 Portfolio | [praansu.github.io](https://praansu.github.io) | ✅ Live |
+| Project | Link |
+|---------|------|
+| 🌿 EcoVerda | [praansu.github.io/eco-verda](https://praansu.github.io/eco-verda) |
+| 🧮 JS Calculator | [praansu.github.io/js-calculator](https://praansu.github.io/js-calculator) |
+| 👤 Portfolio | [praansu.github.io](https://praansu.github.io) |
 
 <br />
 
-## 📈 GitHub Analytics
+## 📈 Stats (because numbers are fun)
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&include_all_commits=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
   <br /><br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" alt="streak" />
   <br /><br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praansu&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="90%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praansu&theme=tokyonight&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="contribution graph" width="90%" />
+  <br /><br />
+  <img src="https://github-profile-trophy.vercel.app/?username=Praansu&theme=tokyonight&no-frame=true&column=7&margin-w=15" alt="trophies" />
 </div>
 
 <br />
 
-## 🏆 GitHub Trophies
+## 🛠️ Stuff I Use
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Praansu&theme=tokyonight&no-frame=true&column=7&margin-w=15" alt="Trophies" />
-</div>
+**Languages:** Python, Java, JavaScript, HTML/CSS, SQL, C++
 
-<br />
+**ML & AI:** PyTorch, scikit-learn, Pandas, NumPy, LangChain, OpenCV, XGBoost
 
-## 🛠️ Tech Stack
+**Backend & Tools:** FastAPI, Streamlit, Flask, Git, PyQt5, SQLite
 
-<div align="center">
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-### ML, AI & Data Science
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-### Backend & Tools
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-
-### IoT & Cloud
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
-
-</div>
+**IoT & Cloud:** ESP32, Arduino, AWS, QGIS
 
 <br />
 
-## 📚 Current Focus
+## 🔥 Currently Exploring
 
-<div align="center">
-  
-| 🔥 Area | 🎯 What I'm Working On |
-|---------|----------------------|
-| **Deep Learning** | CNNs, Transfer Learning, and PyTorch |
-| **RAG & LLMs** | LangChain, Vector Databases, Document QA |
-| **Computer Vision** | Image Classification, Object Detection |
-| **Full-Stack** | Building end-to-end projects (IoT → Backend → Dashboard) |
-
-</div>
+Deep learning with PyTorch (CNNs, transfer learning), RAG-based apps with LangChain, and trying to get better at computer vision. Also learning that the more I code, the more I realize how much I don't know — which is fine, keeps things interesting.
 
 <br />
 
 ---
 
 <div align="center">
-  <p><strong>💬 "The best way to learn is to build. The best way to grow is to share."</strong></p>
   <p>
     <a href="mailto:Praansu12@gmail.com">📧 Email</a> ·
     <a href="https://praansu.github.io">🌐 Portfolio</a> ·
     <a href="https://github.com/Praansu">🐙 GitHub</a> ·
     <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368">💼 LinkedIn</a>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20and%20Python-3776AB?style=flat-square" />
-    <img src="https://img.shields.io/github/last-commit/Praansu/Praansu?style=flat-square&label=Profile+Updated" />
-    <img src="https://img.shields.io/github/followers/Praansu?style=flat-square&label=Followers" />
   </p>
 </div>
