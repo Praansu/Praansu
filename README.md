@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Praansu+Karmacharya;CS+Student+%7C+Builder+%7C+Learner;ML+%26+CV+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Praansu+Karmacharya;CS+Student+%7C+Builder+%7C+Learner;ML+%26+CV+Enthusiast" alt="Typing SVG" />
 
 <p><strong>CS Student at Islington College — I build stuff with code.</strong></p>
 
@@ -60,6 +60,7 @@ CS student at Islington College, Kathmandu. Got into programming out of curiosit
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/ai-doc-summarizer"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
+          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/ai-doc-summarizer/ci.yml?style=flat-square&label=CI" />
         </p>
       </td>
       <td width="50%">
@@ -69,6 +70,7 @@ CS student at Islington College, Kathmandu. Got into programming out of curiosit
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/health-guard-ml"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
+          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/health-guard-ml/ci.yml?style=flat-square&label=CI" />
         </p>
       </td>
     </tr>
