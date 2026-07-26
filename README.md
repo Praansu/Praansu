@@ -9,6 +9,7 @@
     <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="https://github.com/Praansu"><img src="https://img.shields.io/badge/GitHub-%40Praansu-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-Praansu%20Karmacharya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-%40praansu-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
     <img src="https://komarev.com/ghpvc/?username=Praansu&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="profile views" />
   </p>
 
@@ -24,7 +25,8 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
 - 🔭 I recently built **[ParkX](https://github.com/Praansu/ParkX)** — an IoT smart parking system with real-time dashboard
 - 🌱 Currently diving deep into **Deep Learning with PyTorch** and **RAG-based applications with LangChain**
 - 💡 I believe in **learning by doing** — every project teaches me something new
-- 🎯 Goal: Build impactful AI solutions that solve real-world problems
+- 🎯 **Goal:** Build impactful AI solutions that solve real-world problems
+- 🌐 **Portfolio:** [praansu.github.io](https://praansu.github.io)
 - 📫 **Reach me:** Praansu12@gmail.com
 
 <br />
@@ -43,6 +45,7 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
         <p align="center">
           <a href="https://github.com/Praansu/ParkX"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
           <img src="https://img.shields.io/github/stars/Praansu/ParkX?style=flat-square" />
+          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/ParkX/ci.yml?style=flat-square&label=CI" />
         </p>
       </td>
       <td width="50%">
@@ -53,6 +56,7 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/vehicle-image-classifier"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
+          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/vehicle-image-classifier/ci.yml?style=flat-square&label=CI" />
         </p>
       </td>
     </tr>
@@ -90,18 +94,29 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
         </p>
       </td>
       <td width="50%">
-        <h3 align="center">📊 Career Stability Analyzer</h3>
+        <h3 align="center">🌿 EcoVerda</h3>
         <p align="center">
-          <em>Data Analysis</em><br />
-          Pandas + NumPy analysis of FiveThirtyEight employment data with stability scoring
+          <em>E-Commerce Frontend</em><br />
+          Responsive eco-friendly store built with HTML5, CSS3, and vanilla JavaScript
         </p>
         <p align="center">
-          <a href="https://github.com/Praansu/career-stability-analyzer"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
+          <a href="https://github.com/Praansu/eco-verda"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
+          <a href="https://praansu.github.io/eco-verda"><img src="https://img.shields.io/badge/Live_Demo-00C853?style=flat-square&logo=google-chrome" /></a>
         </p>
       </td>
     </tr>
   </table>
 </div>
+
+<br />
+
+## 🌐 Live Demos
+
+| Project | Demo Link | Status |
+|---------|-----------|--------|
+| 🌿 EcoVerda | [praansu.github.io/eco-verda](https://praansu.github.io/eco-verda) | ✅ Live |
+| 🧮 JS Calculator | [praansu.github.io/js-calculator](https://praansu.github.io/js-calculator) | ✅ Live |
+| 👤 Portfolio | [praansu.github.io](https://praansu.github.io) | ✅ Live |
 
 <br />
 
@@ -188,11 +203,13 @@ I'm a Computer Science student at **Islington College, Kathmandu** who turns ide
   <p><strong>💬 "The best way to learn is to build. The best way to grow is to share."</strong></p>
   <p>
     <a href="mailto:Praansu12@gmail.com">📧 Email</a> ·
+    <a href="https://praansu.github.io">🌐 Portfolio</a> ·
     <a href="https://github.com/Praansu">🐙 GitHub</a> ·
     <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368">💼 LinkedIn</a>
   </p>
   <p>
     <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20and%20Python-3776AB?style=flat-square" />
     <img src="https://img.shields.io/github/last-commit/Praansu/Praansu?style=flat-square&label=Profile+Updated" />
+    <img src="https://img.shields.io/github/followers/Praansu?style=flat-square&label=Followers" />
   </p>
 </div>
