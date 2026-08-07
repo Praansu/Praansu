@@ -1,97 +1,69 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Praansu+Karmacharya;CS+Student+%7C+Builder+%7C+Learner;ML+%26+CV+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Hi+%F0%9F%91%8B%2C+I'm+Praansu+Karmacharya;Aspiring+AI+%2F+ML+Engineer;I+build+ML+models+and+AI+products" alt="Typing SVG" />
 
-<p><strong>CS Student at Islington College — I build stuff with code.</strong></p>
+<p><strong>CS student at Islington College — I build ML models and the products around them.</strong></p>
 
 <p>
   <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Praansu"><img src="https://img.shields.io/badge/GitHub-%40Praansu-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=Praansu&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="profile views" />
 </p>
 
-<hr width="60%" />
 </div>
 
 ## about me
 
-CS student at Islington College, Kathmandu. Got into programming out of curiosity and now I can't stop — I spend most of my time building stuff with Python, ML, and IoT. Occasional fights with dependency hell, and I celebrate when things compile on the first try (rare, but it happens).
+CS student in Kathmandu. I got into programming out of curiosity and ended up falling for machine learning — first the fundamentals (PyTorch, training models from scratch), then LLMs and RAG, and now the part I enjoy most: building **AI products** around models, not just notebooks.
 
-- 🔭 Just finished **ParkX** — an IoT parking system. Wiring an ESP32 at 2am is an experience.
-- 🌱 Going deeper into **Deep Learning (PyTorch)** and **RAG apps (LangChain)** — slowly, but getting there.
-- 💡 I learn by doing. Lost count of how many projects I started just to learn one thing.
+- 🔭 Currently building an **AI research agent** — a custom agent loop (no frameworks) that combines document RAG with live web search.
+- 🌱 Learning deep learning + LLM engineering in parallel. I learn by building — every project exists because I wanted to understand one specific thing.
 - 📫 Reach me at **Praansu12@gmail.com** — always happy to chat.
 
 <br />
 
-## projects I've built
+## featured projects
 
 <div align="center">
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">🅿️ ParkX</h3>
+        <h3 align="center">🤖 AI Research Agent</h3>
         <p align="center">
-          IoT parking system with ESP32 + FastAPI. Real sensors, real dashboard, real late nights debugging.
+          An agent loop built from scratch — no framework. Decides on its own whether to search your documents (ChromaDB RAG), search the web, or both. Streams tool calls live.
         </p>
         <p align="center">
-          <a href="https://github.com/Praansu/ParkX"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/ParkX/ci.yml?style=flat-square&label=CI" />
+          <a href="https://github.com/Praansu/ai-research-agent"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
         </p>
       </td>
+      <td width="50%">
+        <h3 align="center">📄 PDF Chat RAG</h3>
+        <p align="center">
+          Upload a PDF, ask questions about it. Full RAG pipeline — PyMuPDF extraction, sentence-transformers embeddings, ChromaDB retrieval, Groq Llama 3.
+        </p>
+        <p align="center">
+          <a href="https://github.com/Praansu/pdf-chat-rag"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
+        </p>
+      </td>
+    </tr>
+    <tr>
       <td width="50%">
         <h3 align="center">🚗 Vehicle Classifier</h3>
         <p align="center">
-          PyTorch CNN with transfer learning. 4K+ images, way too many hyperparameter tweaks.
+          PyTorch + ResNet18 transfer learning — classifies bus/car/motorcycle/truck at 90% accuracy (400 images). Includes a FastAPI inference API with Docker.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/vehicle-image-classifier"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/vehicle-image-classifier/ci.yml?style=flat-square&label=CI" />
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h3 align="center">📄 AI Doc Summarizer</h3>
-        <p align="center">
-          Upload PDFs, ask questions. LangChain + ChromaDB + OpenAI under the hood. Still amazed this works.
-        </p>
-        <p align="center">
-          <a href="https://github.com/Praansu/ai-doc-summarizer"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/ai-doc-summarizer/ci.yml?style=flat-square&label=CI" />
-        </p>
-      </td>
-      <td width="50%">
-        <h3 align="center">❤️ Health Guard ML</h3>
-        <p align="center">
-          XGBoost + SHAP for heart disease prediction. Because accuracy means nothing if you can't explain why.
-        </p>
-        <p align="center">
-          <a href="https://github.com/Praansu/health-guard-ml"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-          <img src="https://img.shields.io/github/actions/workflow/status/Praansu/health-guard-ml/ci.yml?style=flat-square&label=CI" />
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h3 align="center">🏷️ Labeling Tool</h3>
-        <p align="center">
-          PyQt5 app for classifying vehicle images. Keyboard-first — built because manual labeling drives me crazy.
-        </p>
-        <p align="center">
-          <a href="https://github.com/Praansu/vehicle-labeling-tool"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
         </p>
       </td>
       <td width="50%">
         <h3 align="center">🌿 EcoVerda</h3>
         <p align="center">
-          E-commerce frontend for eco products. Pure HTML/CSS/JS — no frameworks, no build tools.
+          Full-stack e-commerce for eco products — Next.js 16, TypeScript, Tailwind, Prisma, Stripe. Proves I can ship complete products, not just models.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/eco-verda"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-          <a href="https://praansu.github.io/eco-verda"><img src="https://img.shields.io/badge/Live_Demo-00C853?style=flat-square&logo=google-chrome" /></a>
         </p>
       </td>
     </tr>
@@ -100,28 +72,13 @@ CS student at Islington College, Kathmandu. Got into programming out of curiosit
 
 <br />
 
-## live demos
+## more projects
 
-| Project | Link |
-|---------|------|
-| 🌿 EcoVerda | [praansu.github.io/eco-verda](https://praansu.github.io/eco-verda) |
-| 🧮 JS Calculator | [praansu.github.io/js-calculator](https://praansu.github.io/js-calculator) |
-| 👤 Portfolio | [praansu.github.io](https://praansu.github.io) |
-
-<br />
-
-## stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
-  <br /><br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" />
-  <br /><br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praansu&theme=tokyonight&hide_border=true&area=true&custom_title=activity" width="90%" />
-  <br /><br />
-  <img src="https://github-profile-trophy.vercel.app/?username=Praansu&theme=tokyonight&no-frame=true&column=7&margin-w=15" />
-</div>
+| Project | What it is |
+|---------|-----------|
+| 🅿️ [ParkX](https://github.com/Praansu/ParkX) | IoT smart parking — ESP32 firmware, FastAPI backend, live dashboard |
+| ❤️ [Health Guard ML](https://github.com/Praansu/health-guard-ml) | Heart disease prediction with XGBoost + SHAP explanations |
+| 🏷️ [Vehicle Labeling Tool](https://github.com/Praansu/vehicle-labeling-tool) | PyQt5 GUI I built to label my own training data |
 
 <br />
 
@@ -129,21 +86,28 @@ CS student at Islington College, Kathmandu. Got into programming out of curiosit
 
 <div align="center">
 
-**Languages** — Python, Java, JavaScript, HTML/CSS, SQL, C++
+**Languages** — Python, TypeScript, JavaScript, HTML/CSS, SQL, Java, C++
 
-**ML/AI** — PyTorch, scikit-learn, Pandas, NumPy, LangChain, OpenCV, XGBoost
+**ML/AI** — PyTorch, scikit-learn, Pandas, NumPy, XGBoost, OpenCV, sentence-transformers
 
-**Backend & Tools** — FastAPI, Streamlit, Flask, Git, PyQt5, SQLite
+**LLM / RAG** — Groq (Llama 3), ChromaDB, embeddings, agent tool-calling, RAG pipelines
 
-**IoT & Cloud** — ESP32, Arduino, AWS, QGIS
+**Backend & Tools** — FastAPI, Next.js, Prisma, Streamlit, Flask, Git, Docker, SQLite
+
+**IoT** — ESP32, Arduino
 
 </div>
 
 <br />
 
-## currently exploring
+## stats
 
-Deep learning with PyTorch (CNNs, transfer learning), RAG-based apps with LangChain, and trying to get better at computer vision. The more I code the more I realize how much I don't know — keeps things interesting.
+<div align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&include_all_commits=true" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
+  <br /><br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" />
+</div>
 
 <br />
 
@@ -152,6 +116,5 @@ Deep learning with PyTorch (CNNs, transfer learning), RAG-based apps with LangCh
 <div align="center">
   <a href="mailto:Praansu12@gmail.com">📧 Email</a> ·
   <a href="https://praansu.github.io">🌐 Portfolio</a> ·
-  <a href="https://github.com/Praansu">🐙 GitHub</a> ·
   <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368">💼 LinkedIn</a>
 </div>
