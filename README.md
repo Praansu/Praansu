@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Hi+%F0%9F%91%8B%2C+I'm+Praansu+Karmacharya;Aspiring+AI+%2F+ML+Engineer;I+build+ML+models+and+AI+products" alt="Typing SVG" />
-
-<p><strong>CS student at Islington College — I build ML models and the products around them.</strong></p>
+<p><strong>CS student at Islington College, Kathmandu.</strong> I build ML models and the products around them — PyTorch, RAG pipelines, agent tool-calling, and full-stack deployment.</p>
 
 <p>
   <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -40,7 +38,7 @@ CS student in Kathmandu. I got into programming out of curiosity and ended up fa
       <td width="50%">
         <h3 align="center">📄 PDF Chat RAG</h3>
         <p align="center">
-          Upload a PDF, ask questions about it. Full RAG pipeline — PyMuPDF extraction, sentence-transformers embeddings, ChromaDB retrieval, Groq Llama 3.
+          Upload a PDF, ask questions about it. Full RAG pipeline — PyMuPDF extraction, sentence-transformers embeddings, ChromaDB retrieval, Groq Llama 3. Streaming SSE + document deletion.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/pdf-chat-rag"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -51,7 +49,7 @@ CS student in Kathmandu. I got into programming out of curiosity and ended up fa
       <td width="50%">
         <h3 align="center">🚗 Vehicle Classifier</h3>
         <p align="center">
-          PyTorch + ResNet18 transfer learning — classifies bus/car/motorcycle/truck at 90% accuracy (400 images). Includes a FastAPI inference API with Docker.
+          PyTorch + ResNet18 transfer learning — classifies bus/car/motorcycle/truck at 90% accuracy (400 images, 100/class). Confusion matrix visualization. FastAPI inference API with Docker.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/vehicle-image-classifier"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -60,7 +58,7 @@ CS student in Kathmandu. I got into programming out of curiosity and ended up fa
       <td width="50%">
         <h3 align="center">🌿 EcoVerda</h3>
         <p align="center">
-          Full-stack e-commerce for eco products — Next.js 16, TypeScript, Tailwind, Prisma, Stripe. Proves I can ship complete products, not just models.
+          Full-stack e-commerce for eco products — Next.js 16, TypeScript, Tailwind, Prisma, Stripe. Blur-up image placeholders, debounced search with URL sync, cart persistence.
         </p>
         <p align="center">
           <a href="https://github.com/Praansu/eco-verda"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
@@ -79,6 +77,7 @@ CS student in Kathmandu. I got into programming out of curiosity and ended up fa
 | 🅿️ [ParkX](https://github.com/Praansu/ParkX) | IoT smart parking — ESP32 firmware, FastAPI backend, live dashboard |
 | ❤️ [Health Guard ML](https://github.com/Praansu/health-guard-ml) | Heart disease prediction with XGBoost + SHAP explanations |
 | 🏷️ [Vehicle Labeling Tool](https://github.com/Praansu/vehicle-labeling-tool) | PyQt5 GUI I built to label my own training data |
+| 🔬 [Small Agent Reliability](https://github.com/Praansu/small-agent-reliability) | Research: evaluating 3B-9B models as autonomous agents across 14 tasks |
 
 <br />
 
@@ -100,12 +99,9 @@ CS student in Kathmandu. I got into programming out of curiosity and ended up fa
 
 <br />
 
-## stats
+## streak
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&include_all_commits=true" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
-  <br /><br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" />
 </div>
 
