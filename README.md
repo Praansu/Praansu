@@ -1,116 +1,44 @@
-<div align="center">
+# Praansu Karmacharya
 
-<p><strong>CS student at Islington College, Kathmandu.</strong> I build ML models and the products around them — PyTorch, RAG pipelines, agent tool-calling, and full-stack deployment.</p>
+ML/AI engineer in Kathmandu. I build retrieval systems, agent loops and vision models, then write down what broke and why.
 
-<p>
-  <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Praansu&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="profile views" />
-</p>
+Currently finishing a BSc in Computer Science at Islington College, freelancing on retrieval pipelines and model deployment, and running a reliability study on small open-weight models used as tool-calling agents.
 
-</div>
+## Selected work
 
-## about me
+**[ai-research-agent](https://github.com/Praansu/ai-research-agent)** â€” Upload a PDF, Markdown or text file and ask questions about it. The agent picks whether to search your documents, search the web, or both, and streams every tool call to the browser as it happens instead of hiding the loop behind a framework. The whole loop is ~120 lines of plain Python.
+`Python` `FastAPI` `ChromaDB` `SSE`
 
-CS student in Kathmandu. I got into programming out of curiosity and ended up falling for machine learning — first the fundamentals (PyTorch, training models from scratch), then LLMs and RAG, and now the part I enjoy most: building **AI products** around models, not just notebooks.
+**[small-agent-reliability](https://github.com/Praansu/small-agent-reliability)** â€” Nine open-weight models between 1B and 9B, scored as tool-using agents across 31 capability tasks and 14 reliability tasks. Accuracy, consistency, robustness, failure recovery and refusal behaviour are scored separately rather than collapsed into one leaderboard. Runs locally on quantized weights through Ollama, so the study reproduces on a laptop.
+`Python` `Ollama` `pandas` `LaTeX`
 
-- 🔭 Currently building an **AI research agent** — a custom agent loop (no frameworks) that combines document RAG with live web search.
-- 🌱 Learning deep learning + LLM engineering in parallel. I learn by building — every project exists because I wanted to understand one specific thing.
-- 📫 Reach me at **Praansu12@gmail.com** — always happy to chat.
+**[pdf-chat-rag](https://github.com/Praansu/pdf-chat-rag)** â€” Document Q&A with real CRUD. Deleting a document removes its vectors, its file and its database row in one operation, which is the part most demos skip. Answers stream token by token over SSE.
+`Python` `FastAPI` `ChromaDB` `PyMuPDF` `sentence-transformers`
 
-<br />
+**[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** â€” ResNet-18 transfer learning on 400 images across four classes. Evaluation reports a confusion matrix and per-class accuracy next to the headline number, because a single aggregate hides a model that is good at one class and guessing at another. Served behind FastAPI and containerised.
+`PyTorch` `ResNet-18` `FastAPI` `Docker`
 
-## featured projects
+**[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** â€” nnU-Net pipeline for road crack and pavement distress segmentation, packaged so a survey engineer can run it without a Python environment or a command line.
+`nnU-Net` `PyTorch` `Python packaging`
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">🤖 AI Research Agent</h3>
-        <p align="center">
-          An agent loop built from scratch — no framework. Decides on its own whether to search your documents (ChromaDB RAG), search the web, or both. Streams tool calls live.
-        </p>
-        <p align="center">
-          <a href="https://github.com/Praansu/ai-research-agent"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-        </p>
-      </td>
-      <td width="50%">
-        <h3 align="center">📄 PDF Chat RAG</h3>
-        <p align="center">
-          Upload a PDF, ask questions about it. Full RAG pipeline — PyMuPDF extraction, sentence-transformers embeddings, ChromaDB retrieval, Groq Llama 3. Streaming SSE + document deletion.
-        </p>
-        <p align="center">
-          <a href="https://github.com/Praansu/pdf-chat-rag"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h3 align="center">🚗 Vehicle Classifier</h3>
-        <p align="center">
-          PyTorch + ResNet18 transfer learning — classifies bus/car/motorcycle/truck at 90% accuracy (400 images, 100/class). Confusion matrix visualization. FastAPI inference API with Docker.
-        </p>
-        <p align="center">
-          <a href="https://github.com/Praansu/vehicle-image-classifier"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-        </p>
-      </td>
-      <td width="50%">
-        <h3 align="center">🌿 EcoVerda</h3>
-        <p align="center">
-          Full-stack e-commerce for eco products — Next.js 16, TypeScript, Tailwind, Prisma, Stripe. Blur-up image placeholders, debounced search with URL sync, cart persistence.
-        </p>
-        <p align="center">
-          <a href="https://github.com/Praansu/eco-verda"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github" /></a>
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
+**[EcoVerda](https://github.com/Praansu/eco-verda)** â€” Storefront for sustainable products with a live Stripe checkout. Static export, so nothing runs at request time that could have run at build time. [Live](https://praansu.github.io/eco-verda/)
+`Next.js` `TypeScript` `Prisma` `Stripe`
 
-<br />
+**[ParkX](https://github.com/Praansu/ParkX)** â€” Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard that reflects bay state over WebSockets instead of polling.
+`ESP32` `FastAPI` `WebSockets`
 
-## more projects
+## What I work with
 
-| Project | What it is |
-|---------|-----------|
-| 🅿️ [ParkX](https://github.com/Praansu/ParkX) | IoT smart parking — ESP32 firmware, FastAPI backend, live dashboard |
-| ❤️ [Health Guard ML](https://github.com/Praansu/health-guard-ml) | Heart disease prediction with XGBoost + SHAP explanations |
-| 🏷️ [Vehicle Labeling Tool](https://github.com/Praansu/vehicle-labeling-tool) | PyQt5 GUI I built to label my own training data |
-| 🔬 [Small Agent Reliability](https://github.com/Praansu/small-agent-reliability) | Research: evaluating 3B-9B models as autonomous agents across 14 tasks |
+**Comfortable:** Python, FastAPI, RAG pipelines, ChromaDB, prompt and tool design, PyTorch, scikit-learn, pandas, Docker, Git and GitHub Actions, SQLite, REST APIs
 
-<br />
+**Used on real projects:** Next.js, TypeScript, React, Tailwind, PostgreSQL, Prisma, Stripe, XGBoost, OpenCV, ESP32, WebSockets, Linux and shell
 
-## tech stack
+**Studying now:** CUDA and GPU profiling, GGUF quantisation, MLOps and experiment tracking, distributed training
 
-<div align="center">
+## Elsewhere
 
-**Languages** — Python, TypeScript, JavaScript, HTML/CSS, SQL, Java, C++
-
-**ML/AI** — PyTorch, scikit-learn, Pandas, NumPy, XGBoost, OpenCV, sentence-transformers
-
-**LLM / RAG** — Groq (Llama 3), ChromaDB, embeddings, agent tool-calling, RAG pipelines
-
-**Backend & Tools** — FastAPI, Next.js, Prisma, Streamlit, Flask, Git, Docker, SQLite
-
-**IoT** — ESP32, Arduino
-
-</div>
-
-<br />
-
-## streak
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" />
-</div>
-
-<br />
+[Portfolio](https://praansu.github.io) Â· [LinkedIn](https://www.linkedin.com/in/praansu-karmacharya-694944368/) Â· praansu12@gmail.com
 
 ---
 
-<div align="center">
-  <a href="mailto:Praansu12@gmail.com">📧 Email</a> ·
-  <a href="https://praansu.github.io">🌐 Portfolio</a> ·
-  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368">💼 LinkedIn</a>
-</div>
+Open to ML/AI engineering roles, remote or in Kathmandu.
