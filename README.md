@@ -37,7 +37,7 @@ Full-stack storefront for sustainable products: cart persistence, credentials au
 
 **[ParkX](https://github.com/Praansu/ParkX)**
 Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard that polls bay state every 2 seconds. Includes bookings, anomaly alerts, and a chatbot with local-Ollama-first, Groq-fallback answering.
-`ESP32` `FastAPI` `WebSockets`
+`ESP32` `FastAPI` `Ollama`
 
 ---
 
@@ -47,7 +47,7 @@ Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and
 Python, FastAPI, RAG pipelines, ChromaDB, prompt and tool design, PyTorch, scikit-learn, pandas, Docker, Git and GitHub Actions, SQLite, REST APIs
 
 **Used on real projects** 
-Next.js, TypeScript, React, Tailwind, PostgreSQL, Prisma, Stripe, XGBoost, OpenCV, ESP32, WebSockets, Linux and shell
+Next.js, TypeScript, React, Tailwind, PostgreSQL, Prisma, Stripe, XGBoost, OpenCV, ESP32, REST polling, Linux and shell
 
 **Studying now** 
 CUDA and GPU profiling, GGUF quantisation, MLOps and experiment tracking, distributed training
