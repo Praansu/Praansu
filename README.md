@@ -10,21 +10,21 @@
 **Junior AI Developer · CS undergrad · Kathmandu, Nepal**
 
 ![Open to work](https://img.shields.io/badge/OPEN_TO_WORK-yes-FF4D00?style=for-the-badge)
-![Internship done](https://img.shields.io/badge/EX--INTERN-AVIYAAN_TECH-1E40AF?style=for-the-badge)
+![Aviyaan Tech](https://img.shields.io/badge/AVIYAAN_TECH-6_MONTHS_EXP-1E40AF?style=for-the-badge)
 ![Freelance](https://img.shields.io/badge/FREELANCE-available-24292f?style=for-the-badge)
 
 </div>
 
 ML/AI engineer in Kathmandu. I build retrieval systems, agent loops and vision models, then write down what broke and why.
 
-Currently finishing a BSc in Computer Science at Islington College, freelancing on retrieval pipelines and model deployment, and running a reliability study on small open-weight models used as tool-calling agents. Previously a Junior AI Developer intern at Aviyaan Tech.
+Currently finishing a BSc in Computer Science at Islington College, freelancing on retrieval pipelines and model deployment, and running a reliability study on small open-weight models used as tool-calling agents. Previously a Junior AI Developer at Aviyaan Tech — six months of production AI work. I like work I can point at and say: that runs because of me.
 
 ---
 
 ## Experience
 
-**Junior AI Developer** — Aviyaan Tech · *6-month internship*
-Assisted in building and testing AI features for production web projects, working with Python ML tooling and LLM APIs under senior developers. First time seeing how AI code survives contact with real clients.
+**Junior AI Developer** — Aviyaan Tech · *6 months experience*
+Built and tested AI features for production web projects, working with Python ML tooling and LLM APIs alongside senior developers. First time seeing how AI code survives contact with real clients.
 
 **Freelance AI/ML Engineer** — Self-employed · *2024 — present*
 RAG pipelines, custom agent loops, ML model deployment, and full-stack AI products for clients. The work on this page mostly comes from here.
@@ -113,7 +113,7 @@ CUDA and GPU profiling, GGUF quantisation, MLOps and experiment tracking, distri
 
 ---
 
-[Portfolio](https://praansu.github.io) | [LinkedIn](https://www.linkedin.com/in/praansu-karmacharya-694944368/) | praansu12@gmail.com
+[Portfolio](https://praansu.github.io) | [LinkedIn](https://www.linkedin.com/in/praansu-karmacharya-694944368/) | Praansu12@gmail.com
 
 Open to ML/AI engineering roles, remote or in Kathmandu.
 
