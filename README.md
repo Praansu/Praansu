@@ -32,11 +32,11 @@ nnU-Net pipeline for road crack and pavement distress segmentation, packaged so 
 `nnU-Net` `PyTorch` `Python packaging`
 
 **[EcoVerda](https://github.com/Praansu/eco-verda)**
-Storefront for sustainable products with a live Stripe checkout. Static export, so nothing runs at request time that could have run at build time. [Live](https://praansu.github.io/eco-verda/)
+Full-stack storefront for sustainable products: cart persistence, credentials auth, orders and reviews on Next.js 16 + Prisma/SQLite. The Stripe client exists but isn't wired into checkout yet — tracked as a known issue in the repo. [Live](https://praansu.github.io/eco-verda/)
 `Next.js` `TypeScript` `Prisma` `Stripe`
 
 **[ParkX](https://github.com/Praansu/ParkX)**
-Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard that reflects bay state over WebSockets instead of polling.
+Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard that polls bay state every 2 seconds. Includes bookings, anomaly alerts, and a chatbot with local-Ollama-first, Groq-fallback answering.
 `ESP32` `FastAPI` `WebSockets`
 
 ---
