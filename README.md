@@ -3,9 +3,34 @@
   <img src="header-light.svg" alt="Praansu Karmacharya, ML/AI engineering, Kathmandu">
 </picture>
 
+<div align="center">
+
+# Praansu Karmacharya
+
+**Junior AI Developer · CS undergrad · Kathmandu, Nepal**
+
+![Open to work](https://img.shields.io/badge/OPEN_TO_WORK-yes-FF4D00?style=for-the-badge)
+![Internship done](https://img.shields.io/badge/EX--INTERN-AVIYAAN_TECH-1E40AF?style=for-the-badge)
+![Freelance](https://img.shields.io/badge/FREELANCE-available-24292f?style=for-the-badge)
+
+</div>
+
 ML/AI engineer in Kathmandu. I build retrieval systems, agent loops and vision models, then write down what broke and why.
 
-Currently finishing a BSc in Computer Science at Islington College, freelancing on retrieval pipelines and model deployment, and running a reliability study on small open-weight models used as tool-calling agents.
+Currently finishing a BSc in Computer Science at Islington College, freelancing on retrieval pipelines and model deployment, and running a reliability study on small open-weight models used as tool-calling agents. Previously a Junior AI Developer intern at Aviyaan Tech.
+
+---
+
+## Experience
+
+**Junior AI Developer** — Aviyaan Tech · *6-month internship*
+Assisted in building and testing AI features for production web projects, working with Python ML tooling and LLM APIs under senior developers. First time seeing how AI code survives contact with real clients.
+
+**Freelance AI/ML Engineer** — Self-employed · *2024 — present*
+RAG pipelines, custom agent loops, ML model deployment, and full-stack AI products for clients. The work on this page mostly comes from here.
+
+**BSc Computing student** — Islington College, Kathmandu · *2023 — present*
+Bachelor of Computer Science. Focus on ML, AI, and full-stack development.
 
 ---
 
@@ -39,21 +64,57 @@ Full-stack storefront for sustainable products: cart persistence, credentials au
 Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard that polls bay state every 2 seconds. Includes bookings, anomaly alerts, and a chatbot with local-Ollama-first, Groq-fallback answering.
 `ESP32` `FastAPI` `Ollama`
 
+<details>
+<summary><b>More repos — experiments, coursework, and old tools (9)</b></summary>
+<br>
+
+- **[demand-predictor-ml](https://github.com/Praansu/demand-predictor-ml)** — parking demand forecasting experiments with XGBoost and scikit-learn.
+- **[health-guard-ml](https://github.com/Praansu/health-guard-ml)** — early-stage health-risk classifier; still a stub with honest TODOs in the README.
+- **[career-stability](https://github.com/Praansu/career-stability)** — data exploration on job-stability survey data.
+- **[ai-doc-summarizer](https://github.com/Praansu/ai-doc-summarizer)** — abstractive summarization API experiment *(archived)*.
+- **[qgis-batch-extraction](https://github.com/Praansu/qgis-batch-extraction)** — QGIS batch-processing scripts for geospatial layers *(archived)*.
+- **[vehicle-labeling-tool](https://github.com/Praansu/vehicle-labeling-tool)** — tiny Tkinter app built to label the vehicle classifier's training set *(archived)*.
+- **[todo-list-cli](https://github.com/Praansu/todo-list-cli)** — my first Python CLI project *(archived)*.
+- **[js-calculator](https://github.com/Praansu/js-calculator)** — weekend JavaScript calculator.
+- **[MyProjects](https://github.com/Praansu/MyProjects)** — old scratch repo of first experiments *(archived)*.
+
+</details>
+
 ---
 
 ## What I work with
 
-**Comfortable** 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,fastapi,ts,nextjs,react,tailwind,postgres,prisma,docker,linux,git&theme=dark">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,ts,nextjs,react,tailwind,postgres,prisma,docker,linux,git&theme=light" alt="Languages and tools I use">
+</picture>
+
+**Comfortable**
 Python, FastAPI, RAG pipelines, ChromaDB, prompt and tool design, PyTorch, scikit-learn, pandas, Docker, Git and GitHub Actions, SQLite, REST APIs
 
-**Used on real projects** 
+**Used on real projects**
 Next.js, TypeScript, React, Tailwind, PostgreSQL, Prisma, Stripe, XGBoost, OpenCV, ESP32, REST polling, Linux and shell
 
-**Studying now** 
+**Studying now**
 CUDA and GPU profiling, GGUF quantisation, MLOps and experiment tracking, distributed training
+
+---
+
+## Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000">
+  <img src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&theme=default&hide_border=true" alt="Praansu's GitHub stats">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&theme=default&hide_border=true" alt="Praansu's most used languages">
+</picture>
 
 ---
 
 [Portfolio](https://praansu.github.io) | [LinkedIn](https://www.linkedin.com/in/praansu-karmacharya-694944368/) | praansu12@gmail.com
 
 Open to ML/AI engineering roles, remote or in Kathmandu.
+
+![Profile views](https://komarev.com/ghpvc/?username=Praansu&color=FF4D00&style=flat-square&label=views)
