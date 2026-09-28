@@ -7,41 +7,41 @@
 
 # Praansu Karmacharya
 
-**Junior AI Developer · CS undergrad · Kathmandu, Nepal**
+**Junior AI Developer · AI undergrad · Kathmandu, Nepal**
 
 [![Open to work](https://img.shields.io/badge/OPEN_TO_WORK-yes-FF4D00?style=for-the-badge)](mailto:Praansu12@gmail.com)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-praansu.github.io-24292F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://praansu.github.io)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praansu-karmacharya-694944368/)
-[![Aviyaan Tech](https://img.shields.io/badge/AVIYAAN_TECH-6_MONTHS_EXP-1E40AF?style=for-the-badge)](https://github.com/Praansu)
+[![Aviyaan Tech](https://img.shields.io/badge/AVIYAAN_TECH-JR_AI_DEV-1E40AF?style=for-the-badge)](https://github.com/Praansu)
 [![Freelance](https://img.shields.io/badge/FREELANCE-available-57606A?style=for-the-badge)](mailto:Praansu12@gmail.com)
 
 </div>
 
 ```yaml
 now:
-  studying: "BSc Computing, Islington College Kathmandu"
-  building: "reliability study on small tool-calling agents"
-  shipping: "RAG pipelines and agent loops for freelance clients"
+  studying: "BSc (Hons) Computing with AI, Islington (2028)"
+  working: "Junior AI Developer intern @ Aviyaan Tech (Mar 2026 — present)"
+  building: "ensemble models for traffic counts, road-damage segmentation + classification"
   open_to: ["junior AI/ML roles", "freelance RAG + agent work"]
   based_in: "Kathmandu, Nepal (UTC+5:45)"
 ```
 
 ML/AI engineer in Kathmandu. I build retrieval systems, agent loops and vision models, then write down what broke and why.
 
-Previously a Junior AI Developer at Aviyaan Tech — six months of production AI work. I like work I can point at and say: that runs because of me.
+BSc (Hons) Computing with AI student at Islington College (graduating 2028), currently interning as a Junior AI Developer at Aviyaan Tech. I like work I can point at and say: that runs because of me.
 
 ---
 
 ## Experience
 
-**Junior AI Developer** — Aviyaan Tech · *6 months experience*
-Built and tested AI features for production web projects, working with Python ML tooling and LLM APIs alongside senior developers. First time seeing how AI code survives contact with real clients.
+**Junior AI Developer (Intern)** — Aviyaan Tech · *Mar 2026 — present*
+Building and experimenting with ML models — ensemble methods for traffic-count estimation, plus road-damage segmentation and classification — from data prep through training and evaluation.
 
-**Freelance AI/ML Engineer** — Self-employed · *2024 — present*
-RAG pipelines, custom agent loops, ML model deployment, and full-stack AI products for clients. Most of the work below comes from here.
+**Independent Builder** — Personal & demo projects · *2024 — present*
+Learning in public: RAG loops, agent harnesses, vision models, and a full-stack demo storefront (EcoVerda). No client work yet — available for freelance. Most of the work below was built here.
 
-**BSc Computing student** — Islington College, Kathmandu · *2023 — present*
-Bachelor of Computer Science. Focus on ML, AI, and full-stack development.
+**BSc (Hons) Computing with AI** — Islington College, Kathmandu · *2023 — 2028*
+Undergraduate degree focused on AI and ML. Coursework and self-directed builds in PyTorch, RAG pipelines, agent tool-calling, and full-stack deployment.
 
 ---
 
@@ -54,8 +54,8 @@ Bachelor of Computer Science. Focus on ML, AI, and full-stack development.
 | **[pdf-chat-rag](https://github.com/Praansu/pdf-chat-rag)** — Document Q&A with real CRUD: deleting a document removes its vectors, file and database row in one operation — the part most demos skip. Answers stream token by token over SSE. | `Python` `FastAPI` `ChromaDB` `PyMuPDF` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
 | **[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** — ResNet-18 transfer learning on 400 images across four classes. Reports a confusion matrix and per-class accuracy next to the headline number, because one aggregate hides a model that's good at one class and guessing at another. Served behind FastAPI, containerised. | `PyTorch` `ResNet-18` `FastAPI` `Docker` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
 | **[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** — nnU-Net pipeline for road crack and pavement distress segmentation, packaged so a survey engineer can run it without a Python environment or a command line. | `nnU-Net` `PyTorch` `packaging` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
-| **[EcoVerda](https://github.com/Praansu/eco-verda)** — Full-stack storefront for sustainable products: cart persistence, credentials auth, orders and reviews on Next.js 16 + Prisma/SQLite. The Stripe client exists but isn't wired into checkout yet — tracked as a known issue in the repo. [Live demo](https://praansu.github.io/eco-verda/) | `Next.js` `TypeScript` `Prisma` `Stripe` | ![freelance](https://img.shields.io/badge/freelance-1E40AF?style=flat-square) |
-| **[ParkX](https://github.com/Praansu/ParkX)** — Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard polling bay state every 2 seconds. Bookings, anomaly alerts, and a local-Ollama-first, Groq-fallback chatbot. | `ESP32` `FastAPI` `Ollama` | ![freelance](https://img.shields.io/badge/freelance-1E40AF?style=flat-square) |
+| **[EcoVerda](https://github.com/Praansu/eco-verda)** — Personal demo storefront for sustainable products: cart persistence, credentials auth, orders and reviews on Next.js 16 + Prisma/SQLite. The Stripe client exists but isn't wired into checkout yet — tracked as a known issue in the repo. [Live demo](https://praansu.github.io/eco-verda/) | `Next.js` `TypeScript` `Prisma` `Stripe` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
+| **[ParkX](https://github.com/Praansu/ParkX)** — Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard polling bay state every 2 seconds. Bookings, anomaly alerts, and a local-Ollama-first, Groq-fallback chatbot. | `ESP32` `FastAPI` `Ollama` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
 
 <details>
 <summary><b>More repos — experiments, coursework, and old tools (9)</b></summary>
