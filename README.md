@@ -43,7 +43,7 @@ Learning in public: RAG loops, agent harnesses, vision models, and a full-stack 
 **BSc (Hons) Computing with AI** — Islington College, Kathmandu · *2025 — 2028*
 Undergraduate degree focused on AI and ML. Coursework and self-directed builds in PyTorch, RAG pipelines, agent tool-calling, and full-stack deployment.
 
-**+2 Science (Computer Science)** — Global School of Science · *2023 — 2025*
+**+2 Science (Computer Science)** — Global School of Science · *2024 — 2025*
 Higher secondary education in the Science stream with Computer Science.
 
 ---
