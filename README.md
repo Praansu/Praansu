@@ -56,20 +56,20 @@ Higher secondary education in the Science stream with Computer Science.
 | **[small-agent-reliability](https://github.com/Praansu/small-agent-reliability)** — Nine open-weight models (1B–9B) scored as tool-using agents across 31 capability and 14 reliability tasks. Accuracy, consistency, robustness, failure recovery and refusal behaviour scored separately, not collapsed into one leaderboard. Reproduces on a laptop via Ollama. | `Python` `Ollama` `pandas` `LaTeX` | ![research](https://img.shields.io/badge/research-6E40C9?style=flat-square) |
 | **[pdf-chat-rag](https://github.com/Praansu/pdf-chat-rag)** — Document Q&A with real CRUD: deleting a document removes its vectors, file and database row in one operation — the part most demos skip. Answers stream token by token over SSE. | `Python` `FastAPI` `ChromaDB` `PyMuPDF` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
 | **[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** — ResNet-18 transfer learning on 400 images across four classes, labeled with [my own annotation tool](https://github.com/Praansu/vehicle-labeling-tool). Reports a confusion matrix and per-class accuracy next to the headline number, because one aggregate hides a model that's good at one class and guessing at another. Served behind FastAPI, containerised. | `PyTorch` `ResNet-18` `FastAPI` `Docker` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
-| **[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** — nnU-Net pipeline for road crack and pavement distress segmentation, packaged so a survey engineer can run it without a Python environment or a command line. | `nnU-Net` `PyTorch` `packaging` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
 | **[EcoVerda](https://github.com/Praansu/eco-verda)** — Personal demo storefront for sustainable products: cart persistence, credentials auth, orders and reviews on Next.js 16 + Prisma/SQLite. The Stripe client exists but isn't wired into checkout yet — tracked as a known issue in the repo. [Live demo](https://praansu.github.io/eco-verda/) | `Next.js` `TypeScript` `Prisma` `Stripe` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
 | **[ParkX](https://github.com/Praansu/ParkX)** — Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard polling bay state every 2 seconds. Bookings, anomaly alerts, and a local-Ollama-first, Groq-fallback chatbot. | `ESP32` `FastAPI` `Ollama` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
 
 <details>
-<summary><b>More repos — experiments, coursework, and old tools (9)</b></summary>
+<summary><b>More repos — experiments, coursework, and old tools (10)</b></summary>
 <br>
 
 - **[demand-predictor-ml](https://github.com/Praansu/demand-predictor-ml)** — parking demand forecasting experiments with XGBoost and scikit-learn.
 - **[health-guard-ml](https://github.com/Praansu/health-guard-ml)** — early-stage health-risk classifier; still a stub with honest TODOs in the README.
+- **[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** — crack-segmentation packaging over nnU-Net: one-click training and prediction scripts aimed at non-technical users.
 - **[career-stability-analyzer](https://github.com/Praansu/career-stability-analyzer)** — data exploration on job-stability survey data.
 - **[ai-doc-summarizer](https://github.com/Praansu/ai-doc-summarizer)** — abstractive summarization API experiment *(archived)*.
 - **[qgis-batch-extraction](https://github.com/Praansu/qgis-batch-extraction)** — QGIS batch-processing scripts for geospatial layers *(archived)*.
-- **[vehicle-labeling-tool](https://github.com/Praansu/vehicle-labeling-tool)** — my Tkinter annotation app, used to label the vehicle classifier's 400-image training set *(archived)*.
+- **[vehicle-labeling-tool](https://github.com/Praansu/vehicle-labeling-tool)** — my PyQt5 annotation app, used to label the vehicle classifier's 400-image training set *(archived)*.
 - **[todo-list-cli](https://github.com/Praansu/todo-list-cli)** — my first Python CLI project *(archived)*.
 - **[js-calculator](https://github.com/Praansu/js-calculator)** — weekend JavaScript calculator.
 - **[MyProjects](https://github.com/Praansu/MyProjects)** — old scratch repo of first experiments *(archived)*.
