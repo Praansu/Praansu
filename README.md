@@ -1,122 +1,68 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
-  <img src="header-light.svg" alt="Praansu Karmacharya, ML/AI engineering, Kathmandu">
-</picture>
-
 <div align="center">
 
-# Praansu Karmacharya
+<p><strong>CS student in Kathmandu. I like building ML stuff that actually runs — not just notebooks.</strong></p>
 
-**Junior AI Developer · AI undergrad · Kathmandu, Nepal**
-
-[![Open to work](https://img.shields.io/badge/OPEN_TO_WORK-yes-FF4D00?style=for-the-badge)](mailto:Praansu12@gmail.com)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-praansu.github.io-24292F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://praansu.github.io)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praansu-karmacharya-694944368/)
-[![Aviyaan Tech](https://img.shields.io/badge/AVIYAAN_TECH-JR_AI_DEV-1E40AF?style=for-the-badge)](https://github.com/Praansu)
-[![Freelance](https://img.shields.io/badge/FREELANCE-available-57606A?style=for-the-badge)](mailto:Praansu12@gmail.com)
+<p>
+  <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+</p>
 
 </div>
 
-```yaml
-now:
-  studying: "BSc (Hons) Computing with AI, Islington (2028)"
-  working: "Junior AI Developer intern @ Aviyaan Tech (Mar 2026 — present)"
-  building: "ensemble models for traffic counts, road-damage segmentation + classification"
-  open_to: ["junior AI/ML roles", "freelance RAG + agent work"]
-  based_in: "Kathmandu, Nepal (UTC+5:45)"
-```
+## about me
 
-ML/AI engineer in Kathmandu. I build retrieval systems, agent loops and vision models, then write down what broke and why.
+Hey, I'm Praansu. CS student at Islington College, Kathmandu.
 
-BSc (Hons) Computing with AI student at Islington College (graduating 2028), currently interning as a Junior AI Developer at Aviyaan Tech. I like work I can point at and say: that runs because of me.
+I started coding out of curiosity and ended up deep in machine learning. Did PyTorch basics first (training small stuff from scratch), then got hooked on LLMs and RAG. What I like most now is turning models into real things — API, frontend, all of it.
 
----
+- building now: an AI research agent from scratch, no framework. it picks by itself whether to check my docs or search the web. still messy but it works.
+- learning: deep learning + LLM stuff side by side. every repo here started because I wanted to figure out one thing.
+- contact: Praansu12@gmail.com — happy to chat.
 
-## Experience
+## what i've built
 
-**Junior AI Developer (Intern)** — Aviyaan Tech · *Mar 2026 — present*
-Building and experimenting with ML models — ensemble methods for traffic-count estimation, plus road-damage segmentation and classification — from data prep through training and evaluation.
+### AI Research Agent
+My current project. Custom agent loop, no LangChain — I wanted to see how tool calling actually works underneath. It chooses between local docs (ChromaDB) and web search, streams everything live. Hardest part was stopping it from calling the wrong tool all the time.
+→ https://github.com/Praansu/ai-research-agent
 
-**Independent Builder** — Personal & demo projects · *2024 — present*
-Learning in public: RAG loops, agent harnesses, vision models, and a full-stack demo storefront (EcoVerda). No client work yet — available for freelance. Most of the work below was built here.
+### PDF Chat (RAG)
+Upload a PDF, ask questions. PyMuPDF for text, sentence-transformers + ChromaDB for retrieval, Groq Llama 3 for answers. I added streaming and delete-docs after I got annoyed re-uploading the same file ten times.
+→ https://github.com/Praansu/pdf-chat-rag
 
-**BSc (Hons) Computing with AI** — Islington College, Kathmandu · *2025 — 2028*
-Undergraduate degree focused on AI and ML. Coursework and self-directed builds in PyTorch, RAG pipelines, agent tool-calling, and full-stack deployment.
+### Vehicle Classifier
+PyTorch + ResNet18, sorts bus / car / bike / truck. Got 90% on my own 400-image set — labelled all 100-per-class myself with a little PyQt tool I made. Added FastAPI + Docker because I wanted to learn deployment too.
+→ https://github.com/Praansu/vehicle-image-classifier
 
-**+2 Science (Computer Science)** — Global School of Science · *2024 — 2025*
-Higher secondary education in the Science stream with Computer Science.
+### EcoVerda
+Eco products store I built to properly learn Next.js. Next 16, TypeScript, Prisma, Stripe. I'm proud of the blur-up images and debounced search that syncs to the URL. Broke checkout twice before webhooks finally worked.
+→ https://github.com/Praansu/eco-verda
 
----
+## smaller stuff
 
-## Selected work
+- [ParkX](https://github.com/Praansu/ParkX) — smart parking with ESP32 + FastAPI. my IoT rabbit hole.
+- [Health Guard ML](https://github.com/Praansu/health-guard-ml) — heart disease prediction, XGBoost + SHAP so it explains itself.
+- [Vehicle Labeling Tool](https://github.com/Praansu/vehicle-labeling-tool) — tiny PyQt app I made to label training data faster.
+- [Small Agent Reliability](https://github.com/Praansu/small-agent-reliability) — testing if small 3B-9B models can work as agents. 14 tasks.
 
-| Project | What it does | Stack | Type |
-|---|---|---|---|
-| **[ai-research-agent](https://github.com/Praansu/ai-research-agent)** — Ask questions over your PDFs, Markdown or text files. The agent routes between document search, web search, or both, and streams every tool call to the browser live instead of hiding the loop behind a framework. The whole loop is ~120 lines of plain Python. | `Python` `FastAPI` `ChromaDB` `SSE` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
-| **[small-agent-reliability](https://github.com/Praansu/small-agent-reliability)** — Nine open-weight models (1B–9B) scored as tool-using agents across 31 capability and 14 reliability tasks. Accuracy, consistency, robustness, failure recovery and refusal behaviour scored separately, not collapsed into one leaderboard. Reproduces on a laptop via Ollama. | `Python` `Ollama` `pandas` `LaTeX` | ![research](https://img.shields.io/badge/research-6E40C9?style=flat-square) |
-| **[pdf-chat-rag](https://github.com/Praansu/pdf-chat-rag)** — Document Q&A with real CRUD: deleting a document removes its vectors, file and database row in one operation — the part most demos skip. Answers stream token by token over SSE. | `Python` `FastAPI` `ChromaDB` `PyMuPDF` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
-| **[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** — ResNet-18 transfer learning on 400 images across four classes, labeled with [my own annotation tool](https://github.com/Praansu/vehicle-labeling-tool). Reports a confusion matrix and per-class accuracy next to the headline number, because one aggregate hides a model that's good at one class and guessing at another. Served behind FastAPI, containerised. | `PyTorch` `ResNet-18` `FastAPI` `Docker` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
-| **[EcoVerda](https://github.com/Praansu/eco-verda)** — Personal demo storefront for sustainable products: cart persistence, credentials auth, orders and reviews on Next.js 16 + Prisma/SQLite. The Stripe client exists but isn't wired into checkout yet — tracked as a known issue in the repo. [Live demo](https://praansu.github.io/eco-verda/) | `Next.js` `TypeScript` `Prisma` `Stripe` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
-| **[ParkX](https://github.com/Praansu/ParkX)** — Smart parking across three layers: ESP32 sensor firmware, a FastAPI backend, and a dashboard polling bay state every 2 seconds. Bookings, anomaly alerts, and a local-Ollama-first, Groq-fallback chatbot. | `ESP32` `FastAPI` `Ollama` | ![build](https://img.shields.io/badge/build-57606A?style=flat-square) |
+## stack
 
-<details>
-<summary><b>More repos — experiments, coursework, and old tools (10)</b></summary>
-<br>
+**Comfortable with:** Python, TypeScript, PyTorch, FastAPI, Next.js, ChromaDB, Docker
 
-- **[demand-predictor-ml](https://github.com/Praansu/demand-predictor-ml)** — parking demand forecasting experiments with XGBoost and scikit-learn.
-- **[health-guard-ml](https://github.com/Praansu/health-guard-ml)** — early-stage health-risk classifier; still a stub with honest TODOs in the README.
-- **[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** — crack-segmentation packaging over nnU-Net: one-click training and prediction scripts aimed at non-technical users.
-- **[career-stability-analyzer](https://github.com/Praansu/career-stability-analyzer)** — data exploration on job-stability survey data.
-- **[ai-doc-summarizer](https://github.com/Praansu/ai-doc-summarizer)** — abstractive summarization API experiment *(archived)*.
-- **[qgis-batch-extraction](https://github.com/Praansu/qgis-batch-extraction)** — QGIS batch-processing scripts for geospatial layers *(archived)*.
-- **[vehicle-labeling-tool](https://github.com/Praansu/vehicle-labeling-tool)** — my PyQt5 annotation app, used to label the vehicle classifier's 400-image training set *(archived)*.
-- **[todo-list-cli](https://github.com/Praansu/todo-list-cli)** — my first Python CLI project *(archived)*.
-- **[js-calculator](https://github.com/Praansu/js-calculator)** — weekend JavaScript calculator.
-- **[MyProjects](https://github.com/Praansu/MyProjects)** — old scratch repo of first experiments *(archived)*.
+**Have used:** scikit-learn, XGBoost, OpenCV, Prisma, Streamlit, Flask, SQLite, ESP32, Java, C++
 
-</details>
+If it's listed, I've shipped something with it. No progress bars.
 
----
+## streak
 
-## What I work with
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,fastapi,ts,nextjs,react,tailwind,postgres,prisma,docker,linux,git&theme=dark">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,ts,nextjs,react,tailwind,postgres,prisma,docker,linux,git&theme=light" alt="Languages and tools I use">
-</picture>
-
-**Comfortable**
-Python, FastAPI, RAG pipelines, ChromaDB, prompt and tool design, PyTorch, scikit-learn, pandas, Docker, Git and GitHub Actions, SQLite, REST APIs
-
-**Used on real projects**
-Next.js, TypeScript, React, Tailwind, PostgreSQL, Prisma, Stripe, XGBoost, OpenCV, ESP32, REST polling, Linux and shell
-
-**Studying now**
-CUDA and GPU profiling, GGUF quantisation, MLOps and experiment tracking, distributed training
-
----
-
-## Activity
-
-| Stats | Streak |
-|---|---|
-| <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000"><img src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&theme=default&hide_border=true" alt="Praansu's GitHub stats"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Praansu&theme=github-dark-blue&hide_border=true&background=00000000"><img src="https://streak-stats.demolab.com?user=Praansu&theme=default&hide_border=true" alt="Praansu's contribution streak"></picture> |
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&theme=default&hide_border=true" alt="Praansu's most used languages">
-</picture>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" />
+</div>
 
 ---
 
 <div align="center">
-
-**Open to ML/AI engineering roles — remote or in Kathmandu.**
-
-[![Portfolio](https://img.shields.io/badge/portfolio-praansu.github.io-FF4D00?style=flat-square&logo=googlechrome&logoColor=white)](https://praansu.github.io)
-[![LinkedIn](https://img.shields.io/badge/linkedin-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praansu-karmacharya-694944368/)
-[![Email](https://img.shields.io/badge/email-Praansu12@gmail.com-57606A?style=flat-square&logo=gmail&logoColor=white)](mailto:Praansu12@gmail.com)
-
-![Profile views](https://komarev.com/ghpvc/?username=Praansu&color=FF4D00&style=flat-square&label=views)
-
+  <a href="mailto:Praansu12@gmail.com">email</a> ·
+  <a href="https://praansu.github.io">portfolio</a> ·
+  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368">linkedin</a>
 </div>
