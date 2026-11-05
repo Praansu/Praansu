@@ -1,61 +1,52 @@
-<div align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Praansu%20Karmacharya&fontSize=38&fontColor=ffffff&animation=twinkling" alt="header" />
-
-  <p>
-    <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Email-Praansu12%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
-  </p>
-
-</div>
+<!-- header: no SVG typing, no animation, just text -->
+<img width="12" src="https://github.com/Praansu/Praansu/blob/main/assets/banner.png?raw=true" alt="banner" />
 
 ## about me
 
-Hey, I'm Praansu. CS student at Islington College, Kathmandu.
+i'm praansu. cs student at islington college, kathmandu. class of 2028.
 
-I started coding out of curiosity and ended up deep in machine learning. Did PyTorch basics first, training small stuff from scratch, then got hooked on LLMs and RAG. What I like most now is turning models into real things: API, frontend, all of it.
+started with python because my friend showed me how to automate a boring spreadsheet. then i got into pytorch, trained some terrible models, got curious about llms, built a rag system that kept hallucinating, and now i'm here trying to make things that actually work.
 
-- building now: an AI research agent from scratch, no framework. it picks by itself whether to check my docs or search the web. still messy but it works.
-- learning: deep learning + LLM stuff side by side. every repo here started because I wanted to figure out one thing.
-- contact: Praansu12@gmail.com — happy to chat.
+i build ml models and the products around them. mostly side projects, some break, some work. this profile is the ones i haven't deleted yet.
 
-## experience
+**intern** — junior ai developer @ aviayaan tech (mar 2026 — present)
+ensemble methods for traffic-count estimation, road-damage segmentation and classification
 
-**Junior AI Developer (Intern)** — Aviyaan Tech · Mar 2026 — present
-Building and experimenting with ML models — ensemble methods for traffic-count estimation, plus road-damage segmentation and classification — from data prep through training and evaluation.
+**student** — bsc (hons) computing with ai @ islington college (2025 — 2028)
+self-directed builds in pytorch, rag pipelines, agent tool-calling, full-stack deployment
 
-**Independent Builder** — Personal projects · 2024 — present
-Learning in public: RAG loops, agent harnesses, vision models, and a full-stack demo storefront. No client work yet — available for freelance. Most of the work below was built here.
+contact: praansu12@gmail.com
 
-**BSc (Hons) Computing with AI** — Islington College, Kathmandu · 2025 — 2028
-Undergraduate degree focused on AI and ML. Coursework and self-directed builds in PyTorch, RAG pipelines, agent tool-calling, and full-stack deployment.
+---
 
 ## selected work
 
-| Project | What it does | Stack |
+| project | what it does | stack |
 |---|---|---|
-| **[ai-research-agent](https://github.com/Praansu/ai-research-agent)** | Custom agent loop, no LangChain. Routes between local docs (ChromaDB) and web search, streams every tool call live. Hardest part was stopping it from calling the wrong tool all the time. | Python · FastAPI · ChromaDB · SSE |
-| **[pdf-chat-rag](https://github.com/Praansu/pdf-chat-rag)** | Upload a PDF, ask questions. Added streaming and delete-docs after I got annoyed re-uploading the same file ten times. | Python · FastAPI · ChromaDB · PyMuPDF |
-| **[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** | PyTorch + ResNet18, sorts bus/car/bike/truck. Got 90% on my own 400-image set — labelled all 100-per-class myself with a PyQt tool I made. | PyTorch · ResNet-18 · FastAPI · Docker |
-| **[eco-verda](https://github.com/Praansu/eco-verda)** | Eco products store to learn Next.js properly. Proud of blur-up images and debounced search that syncs to the URL. Broke checkout twice before webhooks finally worked. | Next.js · TypeScript · Prisma · Stripe |
-| **[ParkX](https://github.com/Praansu/ParkX)** | Smart parking with ESP32 + FastAPI. My IoT rabbit hole. | ESP32 · FastAPI · Ollama |
-| **[health-guard-ml](https://github.com/Praansu/health-guard-ml)** | Heart disease prediction, XGBoost + SHAP so it explains itself. Still a stub with honest TODOs. | XGBoost · SHAP |
+| **[ai-research-agent](https://github.com/Praansu/ai-research-agent)** | custom agent loop, no langchain. routes between local docs (chromadb) and web search. streams every tool call live. spent two days debugging why it kept calling the wrong tool — turns out the system prompt was too vague. | python · fastapi · chromadb · sse |
+| **[pdf-chat-rag](https://github.com/Praansu/pdf-chat-rag)** | upload a pdf, ask questions. added delete-docs and streaming after i got annoyed re-uploading the same file ten times. answers stream token by token. | python · fastapi · chromadb · pymupdf |
+| **[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** | pytorch resnet-18, sorts bus/car/bike/truck. 90% on my own 400-image set — labelled all 100-per-class myself with a pyqt tool i made because i was too impatient to do it by hand. served behind fastapi, containerised. | pytorch · resnet-18 · fastapi · docker |
+| **[eco-verda](https://github.com/Praansu/eco-verda)** | eco products store to learn next.js properly. blur-up images, debounced search that syncs to the url. broke checkout twice before webhooks finally worked. stripe client exists but isn't wired yet — known issue. | next.js · typescript · prisma · stripe |
+| **[parkx](https://github.com/Praansu/ParkX)** | smart parking across esp32 + fastapi + dashboard. my iot rabbit hole. local ollama chatbot with groq fallback. | esp32 · fastapi · ollama |
+| **[health-guard-ml](https://github.com/Praansu/health-guard-ml)** | heart disease prediction, xgboost + shap so it explains itself. still a stub with honest todos. | xgboost · shap |
+
+---
 
 ## smaller stuff
 
-- [nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks) — crack-segmentation packaging over nnU-Net.
-- [demand-predictor-ml](https://github.com/Praansu/demand-predictor-ml) — parking demand forecasting with XGBoost.
-- [small-agent-reliability](https://github.com/Praansu/small-agent-reliability) — testing if 3B-9B models can work as agents. 14 tasks.
-- [vehicle-labeling-tool](https://github.com/Praansu/vehicle-labeling-tool) — tiny PyQt app I made to label training data faster. (archived)
+- **[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** — crack-segmentation packaging over nnunet.
+- **[demand-predictor-ml](https://github.com/Praansu/demand-predictor-ml)** — parking demand forecasting with xgboost and scikit-learn.
+- **[small-agent-reliability](https://github.com/Praansu/small-agent-reliability)** — testing if 3b-9b models can work as agents. 14 tasks. they kept breaking in weird ways.
+- **[vehicle-labeling-tool](https://github.com/Praansu/vehicle-labeling-tool)** — tiny pyqt app i made to label training data faster. (archived)
+
+---
 
 ## stack
 
-**Comfortable with:** Python, TypeScript, PyTorch, FastAPI, Next.js, ChromaDB, Docker
+comfortable: python, typescript, pytorch, fastapi, next.js, chromadb, docker
+have used: scikit-learn, xgboost, opencv, prisma, streamlit, flask, sqlite, esp32, java, c++
 
-**Have used:** scikit-learn, XGBoost, OpenCV, Prisma, Streamlit, Flask, SQLite, ESP32, Java, C++
-
-If it's listed, I've shipped something with it. No progress bars.
+if it's listed, i've shipped something with it. no progress bars.
 
 ---
 
