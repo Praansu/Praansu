@@ -2,7 +2,7 @@
 
 <div style="max-width: 760px; margin: 0 auto; padding: 32px 0 48px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: #1a1a2e; line-height: 1.7;">
 
-<div style="background: #f6f8fa; border-left: 5px solid #24292e; padding: 20px 24px; border-radius: 0 8px 8px 0; margin-bottom: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+<div style="background: #f6f8fa; border-left: 5px solid #24292e; padding: 20px 24px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 40px;">
   <h2 style="margin: 0 0 8px 0; font-size: 1.5em; font-weight: 700; color: #1a1a2e;">About Me</h2>
   <p style="margin: 0; font-size: 1.05em;">I'm Praansu. CS student at Islington College, Kathmandu (Class of 2028) and Junior AI Developer Intern at Aviyaan Tech.</p>
   <p style="margin: 10px 0 0 0; font-size: 1.05em;">I build ML models and the products around them — PyTorch, RAG pipelines, agent tool-calling, FastAPI, Next.js. Things break, I fix them, I ship what works.</p>
@@ -11,21 +11,61 @@
 
 <h2 style="font-size: 1.6em; font-weight: 700; margin: 0 0 20px 0; color: #1a1a2e; border-left: 4px solid #24292e; padding-left: 16px;">GitHub Activity</h2>
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 40px;">
-  <div style="flex: 1; min-width: 300px; max-width: 380px; border: 1px solid #e1e4e8; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
-    <img src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&count_private=true&theme=default&hide_rank=false" alt="GitHub Stats" style="width: 100%; height: auto; display: block;"/>
-  </div>
-  <div style="flex: 1; min-width: 300px; max-width: 380px; border: 1px solid #e1e4e8; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=default" alt="GitHub Streak" style="width: 100%; height: auto; display: block;"/>
-  </div>
-</div>
+<table style="width: 100%; border-collapse: separate; border-spacing: 16px 0; margin-bottom: 40px;">
+  <tr>
+    <td style="width: 50%; vertical-align: top;">
+      <div style="background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+        <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">GitHub Stats</h3>
+        <div style="display: flex; gap: 16px; margin-bottom: 12px;">
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Contributions</span>
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Repositories</span>
+        </div>
+        <div style="display: flex; gap: 16px; margin-bottom: 12px;">
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Pull Requests</span>
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Issues</span>
+        </div>
+        <p style="margin: 0; font-size: 0.85em; color: #57606a;">Open source builds and agent tool-calling projects.</p>
+      </div>
+    </td>
+    <td style="width: 50%; vertical-align: top;">
+      <div style="background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+        <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">GitHub Streak</h3>
+        <div style="font-size: 2em; font-weight: 700; color: #24292e; margin-bottom: 8px;">— Days</div>
+        <p style="margin: 0 0 12px 0; font-size: 0.85em; color: #57606a;">Consistent building and shipping every week.</p>
+        <div style="display: flex; gap: 12px;">
+          <span style="background: #24292e; color: #ffffff; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600;">Active</span>
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Current Streak</span>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 40px;">
-  <div style="flex: 1; min-width: 260px; max-width: 330px; border: 1px solid #e1e4e8; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&theme=default&hide=html,css" alt="Top Languages" style="width: 100%; height: auto; display: block;"/>
+<div style="display: flex; gap: 16px; margin-bottom: 40px;">
+  <div style="flex: 1; background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+    <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">Top Languages</h3>
+    <div style="display: flex; flex-direction: column; gap: 6px;">
+      <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
+        <span style="color: #57606a;">Python</span>
+        <span style="font-weight: 600;">Primary</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
+        <span style="color: #57606a;">TypeScript</span>
+        <span style="font-weight: 600;">Primary</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
+        <span style="color: #57606a;">Next.js</span>
+        <span style="font-weight: 600;">Primary</span>
+      </div>
+    </div>
   </div>
-  <div style="flex: 1; min-width: 260px; max-width: 330px; border: 1px solid #e1e4e8; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
-    <img src="https://github-profile-trophy.vercel.app/?username=Praansu&theme=flat&no-bg=true&no-frame=true&margin-w=8&margin-h=8" alt="Trophies" style="width: 100%; height: auto; display: block;"/>
+  <div style="flex: 1; background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+    <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">Trophies</h3>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <span style="background: #24292e; color: #ffffff; padding: 8px 14px; border-radius: 8px; font-size: 0.8em; font-weight: 600;">Pull Shot</span>
+      <span style="background: #eef1f5; color: #1a1a2e; padding: 8px 14px; border-radius: 8px; font-size: 0.8em; font-weight: 600; border: 1px solid #cbd5e0;">Quickdraw</span>
+      <span style="background: #eef1f5; color: #1a1a2e; padding: 8px 14px; border-radius: 8px; font-size: 0.8em; font-weight: 600; border: 1px solid #cbd5e0;">Early Adopter</span>
+    </div>
   </div>
 </div>
 
