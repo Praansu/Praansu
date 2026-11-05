@@ -1,21 +1,27 @@
-<!-- header: no SVG typing, no animation, just text -->
 <img width="12" src="https://github.com/Praansu/Praansu/blob/main/assets/banner.png?raw=true" alt="banner" />
 
 ## about me
 
-i'm praansu. cs student at islington college, kathmandu. class of 2028.
+i'm praansu. cs student at islington college, kathmandu (class of 2028), and junior ai developer intern at aviayaan tech.
 
-started with python because my friend showed me how to automate a boring spreadsheet. then i got into pytorch, trained some terrible models, got curious about llms, built a rag system that kept hallucinating, and now i'm here trying to make things that actually work.
+i build ml models and the products around them — pytorch, rag pipelines, agent tool-calling, fastapi, next.js. some things break, i fix them, i ship what works.
 
-i build ml models and the products around them. mostly side projects, some break, some work. this profile is the ones i haven't deleted yet.
-
-**intern** — junior ai developer @ aviayaan tech (mar 2026 — present)
-ensemble methods for traffic-count estimation, road-damage segmentation and classification
-
-**student** — bsc (hons) computing with ai @ islington college (2025 — 2028)
-self-directed builds in pytorch, rag pipelines, agent tool-calling, full-stack deployment
+currently interning at aviayaan tech where i work on ensemble methods for traffic-count estimation and road-damage segmentation. before that, i taught myself deep learning from scratch and kept building until something worked.
 
 contact: praansu12@gmail.com
+
+---
+
+## experience
+
+**junior ai developer (intern)** — aviayaan tech · mar 2026 — present
+ensemble methods for traffic-count estimation, road-damage segmentation and classification — from data prep through training and evaluation.
+
+**independent builder** — personal projects · 2024 — present
+learning in public: rag loops, agent harnesses, vision models, and a full-stack demo storefront. available for freelance rag + agent work.
+
+**bsc (hons) computing with ai** — islington college, kathmandu · 2025 — 2028
+coursework and self-directed builds in pytorch, rag pipelines, agent tool-calling, full-stack deployment.
 
 ---
 
@@ -23,11 +29,11 @@ contact: praansu12@gmail.com
 
 | project | what it does | stack |
 |---|---|---|
-| **[ai-research-agent](https://github.com/Praansu/ai-research-agent)** | custom agent loop, no langchain. routes between local docs (chromadb) and web search. streams every tool call live. spent two days debugging why it kept calling the wrong tool — turns out the system prompt was too vague. | python · fastapi · chromadb · sse |
+| **[ai-research-agent](https://github.com/Praansu/ai-research-agent)** | custom agent loop, no langchain. routes between local docs (chromadb) and web search, streams every tool call live. fixed a two-day bug where it kept calling the wrong tool — the system prompt was too vague. | python · fastapi · chromadb · sse |
 | **[pdf-chat-rag](https://github.com/Praansu/pdf-chat-rag)** | upload a pdf, ask questions. added delete-docs and streaming after i got annoyed re-uploading the same file ten times. answers stream token by token. | python · fastapi · chromadb · pymupdf |
-| **[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** | pytorch resnet-18, sorts bus/car/bike/truck. 90% on my own 400-image set — labelled all 100-per-class myself with a pyqt tool i made because i was too impatient to do it by hand. served behind fastapi, containerised. | pytorch · resnet-18 · fastapi · docker |
-| **[eco-verda](https://github.com/Praansu/eco-verda)** | eco products store to learn next.js properly. blur-up images, debounced search that syncs to the url. broke checkout twice before webhooks finally worked. stripe client exists but isn't wired yet — known issue. | next.js · typescript · prisma · stripe |
-| **[parkx](https://github.com/Praansu/ParkX)** | smart parking across esp32 + fastapi + dashboard. my iot rabbit hole. local ollama chatbot with groq fallback. | esp32 · fastapi · ollama |
+| **[vehicle-image-classifier](https://github.com/Praansu/vehicle-image-classifier)** | pytorch resnet-18, sorts bus/car/bike/truck. 90% on my own 400-image set — labelled every image myself with a pyqt tool i made because i was too impatient to do it by hand. served behind fastapi, containerised. | pytorch · resnet-18 · fastapi · docker |
+| **[eco-verda](https://github.com/Praansu/eco-verda)** | eco products store to learn next.js properly. blur-up images, debounced search that syncs to the url. broke checkout twice before webhooks finally worked. stripe client exists but isn't wired yet — tracked as a known issue. | next.js · typescript · prisma · stripe |
+| **[parkx](https://github.com/Praansu/ParkX)** | smart parking across esp32 + fastapi + dashboard. my iot rabbit hole. local ollama chatbot with groq fallback, guardrailed so it only answers parking questions. | esp32 · fastapi · ollama |
 | **[health-guard-ml](https://github.com/Praansu/health-guard-ml)** | heart disease prediction, xgboost + shap so it explains itself. still a stub with honest todos. | xgboost · shap |
 
 ---
@@ -46,7 +52,7 @@ contact: praansu12@gmail.com
 comfortable: python, typescript, pytorch, fastapi, next.js, chromadb, docker
 have used: scikit-learn, xgboost, opencv, prisma, streamlit, flask, sqlite, esp32, java, c++
 
-if it's listed, i've shipped something with it. no progress bars.
+if it's listed, i've shipped something with it.
 
 ---
 
