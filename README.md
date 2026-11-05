@@ -1,5 +1,3 @@
-<img width="12" src="https://github.com/Praansu/Praansu/blob/main/assets/banner.png?raw=true" alt="banner" />
-
 ## about me
 
 i'm praansu. cs student at islington college, kathmandu (class of 2028), and junior ai developer intern at aviayaan tech.
