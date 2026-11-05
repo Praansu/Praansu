@@ -15,59 +15,40 @@
   <tr>
     <td style="width: 50%; vertical-align: top;">
       <div style="background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-        <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">GitHub Stats</h3>
-        <div style="display: flex; gap: 16px; margin-bottom: 12px;">
-          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Contributions</span>
-          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Repositories</span>
+        <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">Profile</h3>
+        <div style="margin-bottom: 12px;">
+          <strong style="font-size: 1.1em;">15</strong> public repositories
         </div>
-        <div style="display: flex; gap: 16px; margin-bottom: 12px;">
-          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Pull Requests</span>
-          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Issues</span>
+        <div style="margin-bottom: 12px;">
+          <strong style="font-size: 1.1em;">1</strong> star — ParkX smart parking
         </div>
-        <p style="margin: 0; font-size: 0.85em; color: #57606a;">Open source builds and agent tool-calling projects.</p>
+        <div style="margin-bottom: 12px;">
+          <strong style="font-size: 1.1em;">0</strong> followers · <strong style="font-size: 1.1em;">4</strong> following
+        </div>
+        <div style="margin-bottom: 0;">
+          <strong style="font-size: 1.1em;">Joined</strong> June 2025
+        </div>
       </div>
     </td>
     <td style="width: 50%; vertical-align: top;">
       <div style="background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-        <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">GitHub Streak</h3>
-        <div style="font-size: 2em; font-weight: 700; color: #24292e; margin-bottom: 8px;">— Days</div>
-        <p style="margin: 0 0 12px 0; font-size: 0.85em; color: #57606a;">Consistent building and shipping every week.</p>
-        <div style="display: flex; gap: 12px;">
-          <span style="background: #24292e; color: #ffffff; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600;">Active</span>
-          <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Current Streak</span>
+        <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">Languages</h3>
+        <div style="margin-bottom: 10px;">
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">Python</span>
+        </div>
+        <div style="margin-bottom: 10px;">
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">TypeScript</span>
+        </div>
+        <div style="margin-bottom: 10px;">
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">HTML</span>
+        </div>
+        <div style="margin-bottom: 0;">
+          <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 12px; border-radius: 6px; font-size: 0.85em; font-weight: 600; border: 1px solid #cbd5e0;">ESP32</span>
         </div>
       </div>
     </td>
   </tr>
 </table>
-
-<div style="display: flex; gap: 16px; margin-bottom: 40px;">
-  <div style="flex: 1; background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">Top Languages</h3>
-    <div style="display: flex; flex-direction: column; gap: 6px;">
-      <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
-        <span style="color: #57606a;">Python</span>
-        <span style="font-weight: 600;">Primary</span>
-      </div>
-      <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
-        <span style="color: #57606a;">TypeScript</span>
-        <span style="font-weight: 600;">Primary</span>
-      </div>
-      <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
-        <span style="color: #57606a;">Next.js</span>
-        <span style="font-weight: 600;">Primary</span>
-      </div>
-    </div>
-  </div>
-  <div style="flex: 1; background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
-    <h3 style="margin: 0 0 12px 0; font-size: 1em; font-weight: 700; color: #24292e; text-transform: uppercase; letter-spacing: 0.05em;">Trophies</h3>
-    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-      <span style="background: #24292e; color: #ffffff; padding: 8px 14px; border-radius: 8px; font-size: 0.8em; font-weight: 600;">Pull Shot</span>
-      <span style="background: #eef1f5; color: #1a1a2e; padding: 8px 14px; border-radius: 8px; font-size: 0.8em; font-weight: 600; border: 1px solid #cbd5e0;">Quickdraw</span>
-      <span style="background: #eef1f5; color: #1a1a2e; padding: 8px 14px; border-radius: 8px; font-size: 0.8em; font-weight: 600; border: 1px solid #cbd5e0;">Early Adopter</span>
-    </div>
-  </div>
-</div>
 
 <h2 style="font-size: 1.6em; font-weight: 700; margin: 0 0 20px 0; color: #1a1a2e; border-left: 4px solid #24292e; padding-left: 16px;">Contact</h2>
 
