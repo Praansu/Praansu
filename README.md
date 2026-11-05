@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.png" alt="praansu karmacharya" />
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.png" alt="praansu karmacharya" width="100%"/>
 
 ## about me
 
@@ -8,13 +8,17 @@ i build ml models and the products around them — pytorch, rag pipelines, agent
 
 interning at aviayaan tech on ensemble methods for traffic-count estimation and road-damage segmentation. before that i taught myself deep learning from scratch and kept building until something worked.
 
-contact: praansu12@gmail.com
+## now
 
-[![email](https://img.shields.io/badge/email-praansu12@gmail.com-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Praansu12@gmail.com)
-[![linkedin](https://img.shields.io/badge/linkedin-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://np.linkedin.com/in/praansu-karmacharya-694944368/)
-[![portfolio](https://img.shields.io/badge/portfolio-praansu.github.io-ff7139?style=for-the-badge&logo=googlechrome&logoColor=white)](https://praansu.github.io)
+currently building ensemble methods for traffic-count estimation at aviayaan tech. open to freelance rag + agent work.
 
----
+## contact
+
+<div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 16px 0;">
+  <a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/contact-email-d14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" height="28"/></a>
+  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368/"><img src="https://img.shields.io/badge/linkedin-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" height="28"/></a>
+  <a href="https://praansu.github.io"><img src="https://img.shields.io/badge/portfolio-visit-ff7139?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portfolio" height="28"/></a>
+</div>
 
 ## experience
 
@@ -27,8 +31,6 @@ rag loops, agent harnesses, vision models, full-stack demo storefront. available
 **bsc (hons) computing with ai** — islington college, kathmandu · 2025 — 2028
 coursework and self-directed builds in pytorch, rag pipelines, agent tool-calling, full-stack deployment.
 
----
-
 ## selected work
 
 | project | what it does | stack |
@@ -40,8 +42,6 @@ coursework and self-directed builds in pytorch, rag pipelines, agent tool-callin
 | **[parkx](https://github.com/Praansu/ParkX)** | smart parking across esp32 + fastapi + dashboard. local ollama chatbot with groq fallback, guardrailed to parking questions only. | esp32 · fastapi · ollama |
 | **[health-guard-ml](https://github.com/Praansu/health-guard-ml)** | heart disease prediction, xgboost + shap so it explains itself. still a stub with honest todos. | xgboost · shap |
 
----
-
 ## smaller stuff
 
 - [nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks) — crack-segmentation packaging over nnunet.
@@ -49,18 +49,25 @@ coursework and self-directed builds in pytorch, rag pipelines, agent tool-callin
 - [small-agent-reliability](https://github.com/Praansu/small-agent-reliability) — testing if 3b-9b models can work as agents. 14 tasks. they kept breaking in weird ways.
 - [vehicle-labeling-tool](https://github.com/Praansu/vehicle-labeling-tool) — tiny pyqt app i made to label training data faster. (archived)
 
----
-
 ## stack
 
-comfortable: python, typescript, pytorch, fastapi, next.js, chromadb, docker
+<p style="display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0;">
+  <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 10px; border-radius: 6px; font-size: 0.85em; border: 1px solid #cbd5e0;">python</span>
+  <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 10px; border-radius: 6px; font-size: 0.85em; border: 1px solid #cbd5e0;">typescript</span>
+  <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 10px; border-radius: 6px; font-size: 0.85em; border: 1px solid #cbd5e0;">pytorch</span>
+  <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 10px; border-radius: 6px; font-size: 0.85em; border: 1px solid #cbd5e0;">fastapi</span>
+  <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 10px; border-radius: 6px; font-size: 0.85em; border: 1px solid #cbd5e0;">next.js</span>
+  <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 10px; border-radius: 6px; font-size: 0.85em; border: 1px solid #cbd5e0;">chromadb</span>
+  <span style="background: #eef1f5; color: #1a1a2e; padding: 5px 10px; border-radius: 6px; font-size: 0.85em; border: 1px solid #cbd5e0;">docker</span>
+</p>
+
 have used: scikit-learn, xgboost, opencv, prisma, streamlit, flask, sqlite, esp32, java, c++
 
 if it's listed, i've shipped something with it.
 
 ---
 
-<div align="center">
+<div style="text-align: center; margin-top: 24px;">
   <a href="mailto:Praansu12@gmail.com">email</a> ·
   <a href="https://praansu.github.io">portfolio</a> ·
   <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368">linkedin</a>
