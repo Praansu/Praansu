@@ -1,106 +1,115 @@
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.svg" alt="praansu karmacharya" width="100%"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.svg" alt="Praansu Karmacharya" width="100%"/>
+</p>
 
-> cs student at islington college (class of 2028) and junior ai developer intern at aviyaan tech. i build ml models and the products around them.
+> I build ML models and the products around them. Things break, I fix them, I ship what works.
 
-## about me
+## 01 · about me
 
-i'm praansu. cs student at islington college, kathmandu, class of 2028, and junior ai developer intern at aviyaan tech. i build ml models and the products around them: pytorch, rag pipelines, agent tool-calling, fastapi, next.js. things break, i fix them, i ship what works.
+I'm Praansu. CS student at Islington College, Kathmandu, class of 2028, and a junior AI developer intern at Aviyaan Tech. I work across the whole stack: PyTorch training loops, RAG pipelines, agent tool-calling, and the FastAPI and Next.js layers that ship them.
 
-right now i'm interning at aviyaan tech on ensemble methods for traffic-count estimation and road-damage segmentation. before that, i taught myself deep learning from scratch and kept building until something worked.
+At Aviyaan Tech I work on ensemble methods for traffic-count estimation and road-damage segmentation. Before that, I taught myself deep learning from scratch and kept building until something worked.
 
-## featured work
+## 02 · featured work
 
 <table border="0" cellpadding="12" cellspacing="0">
   <tr>
     <td valign="top">
-      <a href="https://github.com/Praansu/ai-research-agent"><strong>ai research agent</strong></a><br/>
-      <sub>custom agent loop, no langchain. routes between local docs (chromadb) and web search, streams every tool call live. fixed a two-day bug where it kept calling the wrong tool.</sub><br/>
-      <sub>python · fastapi · chromadb · sse</sub>
+      <a href="https://github.com/Praansu/ai-research-agent"><strong>AI Research Agent</strong></a><br/>
+      <sub>A custom agent loop, no LangChain. It routes between local docs (ChromaDB) and web search by itself, and streams every tool call live. I once spent two days on a bug where it kept calling the wrong tool; the system prompt was too vague.</sub><br/>
+      <sub>Python · FastAPI · ChromaDB · SSE</sub>
     </td>
     <td width="40"></td>
     <td valign="top">
-      <a href="https://github.com/Praansu/pdf-chat-rag"><strong>pdf chat rag</strong></a><br/>
-      <sub>upload a pdf, ask questions. added delete-docs and streaming after re-uploading the same file ten times. answers stream token by token.</sub><br/>
-      <sub>python · fastapi · chromadb · pymupdf</sub>
+      <a href="https://github.com/Praansu/pdf-chat-rag"><strong>PDF Chat RAG</strong></a><br/>
+      <sub>Upload a PDF and ask it questions, with answers that stream token by token. Added document management and delete-docs after re-uploading the same file ten times.</sub><br/>
+      <sub>Python · FastAPI · PyMuPDF · ChromaDB</sub>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <a href="https://github.com/Praansu/vehicle-image-classifier"><strong>vehicle image classifier</strong></a><br/>
-      <sub>pytorch resnet-18 sorts bus/car/bike/truck. 90% on my own 400-image set. i labelled every image myself with a pyqt tool i made. served behind fastapi, containerised.</sub><br/>
-      <sub>pytorch · resnet-18 · fastapi · docker</sub>
+      <a href="https://github.com/Praansu/vehicle-image-classifier"><strong>Vehicle Image Classifier</strong></a><br/>
+      <sub>PyTorch ResNet-18 that sorts bus, car, bike and truck at 90% on a 400-image set I labelled myself with a small PyQt tool. Served behind FastAPI, containerized.</sub><br/>
+      <sub>PyTorch · ResNet-18 · FastAPI · Docker</sub>
     </td>
     <td width="40"></td>
     <td valign="top">
-      <a href="https://github.com/Praansu/eco-verda"><strong>eco-verda</strong></a><br/>
-      <sub>eco products store to learn next.js properly. blur-up images, debounced search that syncs to the url. broke checkout twice before webhooks finally worked. stripe not wired yet.</sub><br/>
-      <sub>next.js · typescript · prisma · stripe</sub>
+      <a href="https://github.com/Praansu/eco-verda"><strong>Eco-Verda</strong></a><br/>
+      <sub>An eco-products store built to learn Next.js properly: debounced search synced to the URL, blur-up images. I broke checkout twice before the Stripe webhooks finally worked. Payments are not wired yet, that's the known issue.</sub><br/>
+      <sub>Next.js · TypeScript · Prisma · Stripe</sub>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <a href="https://github.com/Praansu/ParkX"><strong>parkx</strong></a><br/>
-      <sub>smart parking across esp32 + fastapi + dashboard. local ollama chatbot with groq fallback, guardrailed to parking questions only.</sub><br/>
-      <sub>esp32 · fastapi · ollama · groq</sub>
+      <a href="https://github.com/Praansu/ParkX"><strong>ParkX</strong></a><br/>
+      <sub>Smart parking across ESP32, FastAPI and a dashboard. A local Ollama chatbot with a Groq fallback, now guardrailed so it only answers parking questions.</sub><br/>
+      <sub>ESP32 · FastAPI · Ollama · Groq</sub>
     </td>
     <td width="40"></td>
     <td valign="top">
-      <a href="https://github.com/Praansu/health-guard-ml"><strong>health guard ml</strong></a><br/>
-      <sub>heart disease prediction, xgboost + shap so it explains itself. still a stub with honest todos.</sub><br/>
-      <sub>xgboost · shap</sub>
+      <a href="https://github.com/Praansu/health-guard-ml"><strong>Health Guard ML</strong></a><br/>
+      <sub>Heart-disease prediction with XGBoost + SHAP so the model explains itself. Still an honest work in progress.</sub><br/>
+      <sub>XGBoost · SHAP</sub>
     </td>
   </tr>
 </table>
 
 <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 
-## tech stack
+## 03 · tech stack
 
 <table border="0" cellpadding="12" cellspacing="0">
   <tr>
     <td valign="top">
-      <strong>languages</strong><br/>
-      <a><img src="https://img.shields.io/badge/tech-python-3776AB?style=flat-square&logo=python&logoColor=white" alt="python"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-typescript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="typescript"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-html-E34F26?style=flat-square&logo=html5&logoColor=white" alt="html"/></a>
+      <strong>Languages</strong><br/>
+      <img src="https://img.shields.io/badge/Python-1F2328?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;
+      <img src="https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;
+      <img src="https://img.shields.io/badge/HTML-1F2328?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
     </td>
-    <td width="40"></td>
+  </tr>
+  <tr>
     <td valign="top">
-      <strong>ai / ml</strong><br/>
-      <a><img src="https://img.shields.io/badge/tech-pytorch-EE4C2C?style=flat-square" alt="pytorch"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-xgboost-7B5EE7?style=flat-square" alt="xgboost"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-shap-1A1A1A?style=flat-square" alt="shap"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-chromadb-5B21B6?style=flat-square" alt="chromadb"/></a>
+      <strong>AI / ML</strong><br/>
+      <img src="https://img.shields.io/badge/PyTorch-1F2328?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>&nbsp;
+      <img src="https://img.shields.io/badge/XGBoost-1F2328?style=flat-square" alt="XGBoost"/>&nbsp;
+      <img src="https://img.shields.io/badge/SHAP-1F2328?style=flat-square" alt="SHAP"/>&nbsp;
+      <img src="https://img.shields.io/badge/ChromaDB-1F2328?style=flat-square" alt="ChromaDB"/>
     </td>
-    <td width="40"></td>
+  </tr>
+  <tr>
     <td valign="top">
-      <strong>backend &amp; tools</strong><br/>
-      <a><img src="https://img.shields.io/badge/tech-fastapi-009688?style=flat-square&logo=fastapi&logoColor=white" alt="fastapi"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-nextjs-000000?style=flat-square&logo=next.js&logoColor=white" alt="nextjs"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-docker-0DB7ED?style=flat-square&logo=docker&logoColor=white" alt="docker"/></a><br/>
-      <a><img src="https://img.shields.io/badge/tech-esp32-F7931E?style=flat-square" alt="esp32"/></a>
+      <strong>Backend &amp; Tools</strong><br/>
+      <img src="https://img.shields.io/badge/FastAPI-1F2328?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>&nbsp;
+      <img src="https://img.shields.io/badge/Next.js-1F2328?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>&nbsp;
+      <img src="https://img.shields.io/badge/Docker-1F2328?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>&nbsp;
+      <img src="https://img.shields.io/badge/ESP32-1F2328?style=flat-square" alt="ESP32"/>
     </td>
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
-
-## currently exploring
-
-small-agent-reliability: testing if 3b-9b models can work as agents. 14 tasks. they kept breaking in weird ways.<br/>
-demand-predictor-ml — time-series forecasting for parking occupancy. linear, random forest, xgboost comparison.<br/>
-nnunet-road-cracks — one-click nnunet v2 package for road crack and pavement distress segmentation.
+<sub>Also used: scikit-learn, OpenCV, Prisma, Streamlit, Flask, SQLite, Ollama, Groq, Java, C++</sub>
 
 <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 
-## github activity
+## 04 · currently exploring
 
-15 public repositories · 1 star (parkx) · joined june 2025
+**[small-agent-reliability](https://github.com/Praansu/small-agent-reliability)** · Testing whether 3B-9B open-source models can actually work as agents. 14 tasks; they kept breaking in weird ways.<br/>
+**[demand-predictor-ml](https://github.com/Praansu/demand-predictor-ml)** · Time-series forecasting for parking occupancy: synthetic data, lag and rolling features, Linear vs Random Forest vs XGBoost.<br/>
+**[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** · A one-click nnU-Net v2 package for road-crack segmentation, built so non-technical users can run it.
 
 <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 
-## connect
+## 05 · activity
 
-<a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/contact-email-d14836?style=flat-square&logo=gmail&logoColor=white" alt="email" height="32"/></a>
-<a href="https://np.linkedin.com/in/praansu-karmacharya-694944368/"><img src="https://img.shields.io/badge/linkedin-connect-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" height="32"/></a>
-<a href="https://praansu.github.io"><img src="https://img.shields.io/badge/portfolio-visit-ff7139?style=flat-square&logo=googlechrome&logoColor=white" alt="portfolio" height="32"/></a>
+15 public repositories · 1 star on ParkX · joined June 2025<br/>
+Most recently pushed: small-agent-reliability · demand-predictor-ml · Praansu.github.io
+
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
+
+## 06 · connect
+
+<a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/Gmail-1F2328?style=flat-square&logo=gmail&logoColor=white" alt="Email" height="28"/></a>&nbsp;
+<a href="https://np.linkedin.com/in/praansu-karmacharya-694944368/"><img src="https://img.shields.io/badge/LinkedIn-1F2328?style=flat-square" alt="LinkedIn" height="28"/></a>&nbsp;
+<a href="https://praansu.github.io"><img src="https://img.shields.io/badge/Portfolio-1F2328?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" height="28"/></a>
+
+<p align="center"><sub>Kathmandu, Nepal · updated November 2026</sub></p>
