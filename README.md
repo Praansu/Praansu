@@ -15,70 +15,88 @@ At Aviyaan Tech I work on ensemble methods for traffic-count estimation and road
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td valign="top" width="18%">
-      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-01.svg" width="48" height="48"/>
+    <td valign="top" width="16%">
+      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-01.svg" width="52" height="52"/>
     </td>
-    <td valign="top" width="82%">
+    <td valign="top" width="66%">
       <a href="https://github.com/Praansu/ai-research-agent"><strong>AI Research Agent</strong></a><br/>
       <sub>A custom agent loop, no LangChain. Routes between local docs (ChromaDB) and web search by itself, streaming every tool call live. Spent two days on a bug where it kept calling the wrong tool — the system prompt was too vague.</sub><br/>
       <sub>Python · FastAPI · ChromaDB · SSE</sub>
     </td>
+    <td valign="top" width="18%">
+      <sub><a href="https://img.shields.io/badge/ML%2FAgent-1F2328?style=flat-square" alt="ML Agent"><img src="https://img.shields.io/badge/ML/Agent-1F2328?style=flat-square" alt="ML Agent"/></a></sub>
+    </td>
   </tr>
   <tr height="16"><td></td></tr>
   <tr>
-    <td valign="top" width="18%">
-      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-02.svg" width="48" height="48"/>
+    <td valign="top" width="16%">
+      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-02.svg" width="52" height="52"/>
     </td>
-    <td valign="top" width="82%">
+    <td valign="top" width="66%">
       <a href="https://github.com/Praansu/pdf-chat-rag"><strong>PDF Chat RAG</strong></a><br/>
       <sub>Upload a PDF and ask it questions, answers stream token by token. Added document management and delete-docs after re-uploading the same file ten times.</sub><br/>
       <sub>Python · FastAPI · PyMuPDF · ChromaDB</sub>
     </td>
+    <td valign="top" width="18%">
+      <sub><img src="https://img.shields.io/badge/RAG%2FNLP-1F2328?style=flat-square" alt="RAG NLP"/></sub>
+    </td>
   </tr>
   <tr height="16"><td></td></tr>
   <tr>
-    <td valign="top" width="18%">
-      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-03.svg" width="48" height="48"/>
+    <td valign="top" width="16%">
+      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-03.svg" width="52" height="52"/>
     </td>
-    <td valign="top" width="82%">
+    <td valign="top" width="66%">
       <a href="https://github.com/Praansu/vehicle-image-classifier"><strong>Vehicle Image Classifier</strong></a><br/>
       <sub>PyTorch ResNet-18 sorting bus, car, bike and truck at 90% on a 400-image set I labelled myself with a PyQt tool. Served behind FastAPI, containerized.</sub><br/>
       <sub>PyTorch · ResNet-18 · FastAPI · Docker</sub>
+    </td>
+    <td valign="top" width="18%">
+      <sub><img src="https://img.shields.io/badge/CV%2FPyTorch-1F2328?style=flat-square" alt="CV PyTorch"/></sub>
     </td>
   </tr>
 </table>
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td valign="top" width="18%">
-      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-04.svg" width="48" height="48"/>
+    <td valign="top" width="16%">
+      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-04.svg" width="52" height="52"/>
     </td>
-    <td valign="top" width="82%">
+    <td valign="top" width="66%">
       <a href="https://github.com/Praansu/ParkX"><strong>ParkX</strong></a><br/>
       <sub>Smart parking across ESP32, FastAPI and a dashboard. Local Ollama chatbot with Groq fallback, guardrailed to parking questions only.</sub><br/>
       <sub>ESP32 · FastAPI · Ollama · Groq</sub>
     </td>
+    <td valign="top" width="18%">
+      <sub><img src="https://img.shields.io/badge/IoT%2FEdge-1F2328?style=flat-square" alt="IoT Edge"/></sub>
+    </td>
   </tr>
   <tr height="16"><td></td></tr>
   <tr>
-    <td valign="top" width="18%">
-      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-05.svg" width="48" height="48"/>
+    <td valign="top" width="16%">
+      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-05.svg" width="52" height="52"/>
     </td>
-    <td valign="top" width="82%">
+    <td valign="top" width="66%">
       <a href="https://github.com/Praansu/eco-verda"><strong>Eco-Verda</strong></a><br/>
       <sub>Eco-products store built to learn Next.js properly: debounced search synced to the URL, blur-up images. Broke checkout twice before Stripe webhooks finally worked.</sub><br/>
       <sub>Next.js · TypeScript · Prisma · Stripe</sub>
     </td>
+    <td valign="top" width="18%">
+      <sub><img src="https://img.shields.io/badge/Full-stack-1F2328?style=flat-square" alt="Full-stack"/></sub>
+    </td>
   </tr>
   <tr height="16"><td></td></tr>
   <tr>
-    <td valign="top" width="18%">
-      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-06.svg" width="48" height="48"/>
+    <td valign="top" width="16%">
+      <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/project-06.svg" width="52" height="52"/>
     </td>
-    <td valign="top" width="82%">
+    <td valign="top" width="66%">
       <a href="https://github.com/Praansu/health-guard-ml"><strong>Health Guard ML</strong></a><br/>
       <sub>Heart-disease prediction with XGBoost + SHAP so the model explains itself. Still an honest work in progress.</sub><br/>
       <sub>XGBoost · SHAP</sub>
+    </td>
+    <td valign="top" width="18%">
+      <sub><img src="https://img.shields.io/badge/Health%2FML-1F2328?style=flat-square" alt="Health ML"/></sub>
     </td>
   </tr>
 </table>
