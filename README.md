@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.svg" alt="Praansu Karmacharya" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.svg?v=2" alt="Praansu Karmacharya" width="100%"/>
 </p>
 
 > I build ML models and the products around them. Things break, I fix them, I ship what works.
@@ -54,7 +54,7 @@ At Aviyaan Tech I work on ensemble methods for traffic-count estimation and road
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg?v=2" width="100%"/>
 
 ## 03 · tech stack
 
@@ -89,7 +89,7 @@ At Aviyaan Tech I work on ensemble methods for traffic-count estimation and road
 
 <sub>Also used: scikit-learn, OpenCV, Prisma, Streamlit, Flask, SQLite, Ollama, Groq, Java, C++</sub>
 
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg?v=2" width="100%"/>
 
 ## 04 · currently exploring
 
@@ -97,14 +97,14 @@ At Aviyaan Tech I work on ensemble methods for traffic-count estimation and road
 **[demand-predictor-ml](https://github.com/Praansu/demand-predictor-ml)** · Time-series forecasting for parking occupancy: synthetic data, lag and rolling features, Linear vs Random Forest vs XGBoost.<br/>
 **[nnunet-road-cracks](https://github.com/Praansu/nnunet-road-cracks)** · A one-click nnU-Net v2 package for road-crack segmentation, built so non-technical users can run it.
 
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg?v=2" width="100%"/>
 
 ## 05 · activity
 
 15 public repositories · 1 star on ParkX · joined June 2025<br/>
 Most recently pushed: small-agent-reliability · demand-predictor-ml · Praansu.github.io
 
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg?v=2" width="100%"/>
 
 ## 06 · connect
 
