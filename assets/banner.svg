@@ -1,0 +1,28 @@
+<svg width="2000" height="340" viewBox="0 0 2000 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2000" height="340" fill="#0c0c10"/>
+
+  <!-- left accent bar -->
+  <rect x="56" y="44" width="3" height="252" fill="#c9a227"/>
+
+  <!-- name -->
+  <text x="96" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#ffffff">Praansu Karmacharya</text>
+
+  <!-- tagline -->
+  <text x="96" y="188" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#94a3b8">ml engineer  &middot;  rag  &middot;  autonomous agents  &middot;  fastapi  &middot;  next.js</text>
+
+  <!-- subtitle -->
+  <text x="96" y="224" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#64748b">cs student &middot; islington college, kathmandu &middot; aviyaan tech intern</text>
+
+  <!-- subtle rule -->
+  <line x1="96" y1="272" x2="1100" y2="272" stroke="#1f1f28" stroke-width="1"/>
+
+  <!-- swiss minimalist dots (right side) -->
+  <circle cx="1720" cy="64" r="2" fill="#2d2d36"/>
+  <circle cx="1780" cy="120" r="2" fill="#2d2d36"/>
+  <circle cx="1840" cy="180" r="2" fill="#2d2d36"/>
+  <circle cx="1900" cy="240" r="2" fill="#2d2d36"/>
+  <circle cx="1960" cy="300" r="2" fill="#2d2d36"/>
+
+  <!-- small accent square -->
+  <rect x="1820" y="52" width="24" height="24" fill="#c9a227" opacity="0.12"/>
+</svg>

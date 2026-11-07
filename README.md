@@ -1,142 +1,106 @@
-<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.png" alt="Praansu Karmacharya" width="100%"/>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.svg" alt="praansu karmacharya" width="100%"/>
 
-<div style="max-width: 740px; margin: 0 auto; padding: 32px 0 56px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: #1a1a2e; line-height: 1.65;">
+> cs student at islington college (class of 2028) and junior ai developer intern at aviyaan tech. i build ml models and the products around them.
 
-<div style="background: #f6f8fa; border-left: 6px solid #24292e; padding: 24px 28px; border-radius: 0 10px 10px 0; box-shadow: 0 3px 12px rgba(0,0,0,0.05); margin-bottom: 44px;">
-  <h2 style="margin: 0 0 10px 0; font-size: 1.6em; font-weight: 800; color: #1a1a2e; letter-spacing: -0.01em;">About Me</h2>
-  <p style="margin: 0; font-size: 1.08em;">I'm Praansu. CS student at Islington College, Kathmandu (Class of 2028) and Junior AI Developer Intern at Aviyaan Tech.</p>
-  <p style="margin: 12px 0 0 0; font-size: 1.08em;">I build ML models and the products around them — PyTorch, RAG pipelines, agent tool-calling, FastAPI, Next.js. Things break, I fix them, I ship what works.</p>
-  <p style="margin: 12px 0 0 0; font-size: 1.08em;">Interning at Aviyaan Tech on ensemble methods for traffic-count estimation and road-damage segmentation. Before that I taught myself deep learning from scratch and kept building until something worked.</p>
-</div>
+## about me
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 44px;">
-  <div style="background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 12px; padding: 24px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h3 style="margin: 0 0 14px 0; font-size: 1em; font-weight: 800; color: #24292e; text-transform: uppercase; letter-spacing: 0.06em;">Profile</h3>
-    <div style="margin-bottom: 14px; font-size: 1.05em;"><strong style="color: #1a1a2e;">15</strong> public repositories</div>
-    <div style="margin-bottom: 14px; font-size: 1.05em;"><strong style="color: #1a1a2e;">1</strong> star — ParkX smart parking</div>
-    <div style="margin-bottom: 14px; font-size: 1.05em;"><strong style="color: #1a1a2e;">0</strong> followers · <strong style="color: #1a1a2e;">4</strong> following</div>
-    <div style="margin-bottom: 0; font-size: 1.05em;"><strong style="color: #1a1a2e;">Joined</strong> June 2025</div>
-  </div>
-  <div style="background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 12px; padding: 24px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h3 style="margin: 0 0 14px 0; font-size: 1em; font-weight: 800; color: #24292e; text-transform: uppercase; letter-spacing: 0.06em;">Languages</h3>
-    <div style="margin-bottom: 10px; font-size: 0.9em; color: #57606a;">Primary: Python · TypeScript</div>
-    <div style="margin-bottom: 10px; font-size: 0.9em; color: #57606a;">Secondary: HTML · ESP32</div>
-    <div style="margin-bottom: 14px; font-size: 0.9em; color: #57606a;">Frameworks: FastAPI · Next.js · PyTorch</div>
-    <div style="margin-bottom: 0; font-size: 0.9em; color: #57606a;">Tools: ChromaDB · Docker · Prisma · SQLite</div>
-  </div>
-</div>
+i'm praansu. cs student at islington college, kathmandu, class of 2028, and junior ai developer intern at aviyaan tech. i build ml models and the products around them: pytorch, rag pipelines, agent tool-calling, fastapi, next.js. things break, i fix them, i ship what works.
 
-<h2 style="font-size: 1.7em; font-weight: 800; margin: 0 0 18px 0; color: #1a1a2e; border-left: 5px solid #24292e; padding-left: 18px;">Contact</h2>
+right now i'm interning at aviyaan tech on ensemble methods for traffic-count estimation and road-damage segmentation. before that, i taught myself deep learning from scratch and kept building until something worked.
 
-<div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 44px;">
-  <a href="mailto:Praansu12@gmail.com" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/contact-email-d14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="36" style="display: block; border-radius: 6px;"/>
-  </a>
-  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/linkedin-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="36" style="display: block; border-radius: 6px;"/>
-  </a>
-  <a href="https://praansu.github.io" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/portfolio-visit-ff7139?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" height="36" style="display: block; border-radius: 6px;"/>
-  </a>
-</div>
+## featured work
 
-<h2 style="font-size: 1.7em; font-weight: 800; margin: 0 0 18px 0; color: #1a1a2e; border-left: 5px solid #24292e; padding-left: 18px;">Experience</h2>
-
-<table style="width: 100%; border-collapse: separate; border-spacing: 0 16px; margin-bottom: 44px;">
-  <tr style="vertical-align: top;">
-    <td style="width: 200px; font-weight: 800; color: #1a1a2e; font-size: 0.95em;">Junior AI Developer (Intern)</td>
-    <td style="font-size: 0.98em;">
-      <strong style="color: #24292e;">Aviyaan Tech</strong> · Mar 2026 — Present<br/>
-      <span style="color: #57606a;">Ensemble methods for traffic-count estimation and road-damage segmentation.</span>
+<table border="0" cellpadding="12" cellspacing="0">
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Praansu/ai-research-agent"><strong>ai research agent</strong></a><br/>
+      <sub>custom agent loop, no langchain. routes between local docs (chromadb) and web search, streams every tool call live. fixed a two-day bug where it kept calling the wrong tool.</sub><br/>
+      <sub>python · fastapi · chromadb · sse</sub>
+    </td>
+    <td width="40"></td>
+    <td valign="top">
+      <a href="https://github.com/Praansu/pdf-chat-rag"><strong>pdf chat rag</strong></a><br/>
+      <sub>upload a pdf, ask questions. added delete-docs and streaming after re-uploading the same file ten times. answers stream token by token.</sub><br/>
+      <sub>python · fastapi · chromadb · pymupdf</sub>
     </td>
   </tr>
-  <tr style="vertical-align: top;">
-    <td style="width: 200px; font-weight: 800; color: #1a1a2e; font-size: 0.95em;">Independent Builder</td>
-    <td style="font-size: 0.98em;">
-      <strong style="color: #24292e;">Personal Projects</strong> · 2024 — Present<br/>
-      <span style="color: #57606a;">RAG loops, agent harnesses, vision models, full-stack demo storefront. Open to freelance RAG + agent work.</span>
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Praansu/vehicle-image-classifier"><strong>vehicle image classifier</strong></a><br/>
+      <sub>pytorch resnet-18 sorts bus/car/bike/truck. 90% on my own 400-image set. i labelled every image myself with a pyqt tool i made. served behind fastapi, containerised.</sub><br/>
+      <sub>pytorch · resnet-18 · fastapi · docker</sub>
+    </td>
+    <td width="40"></td>
+    <td valign="top">
+      <a href="https://github.com/Praansu/eco-verda"><strong>eco-verda</strong></a><br/>
+      <sub>eco products store to learn next.js properly. blur-up images, debounced search that syncs to the url. broke checkout twice before webhooks finally worked. stripe not wired yet.</sub><br/>
+      <sub>next.js · typescript · prisma · stripe</sub>
     </td>
   </tr>
-  <tr style="vertical-align: top;">
-    <td style="width: 200px; font-weight: 800; color: #1a1a2e; font-size: 0.95em;">BSc (Hons) Computing with AI</td>
-    <td style="font-size: 0.98em;">
-      <strong style="color: #24292e;">Islington College, Kathmandu</strong> · 2025 — 2028<br/>
-      <span style="color: #57606a;">Coursework and self-directed builds in PyTorch, RAG pipelines, agent tool-calling, full-stack deployment.</span>
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Praansu/ParkX"><strong>parkx</strong></a><br/>
+      <sub>smart parking across esp32 + fastapi + dashboard. local ollama chatbot with groq fallback, guardrailed to parking questions only.</sub><br/>
+      <sub>esp32 · fastapi · ollama · groq</sub>
+    </td>
+    <td width="40"></td>
+    <td valign="top">
+      <a href="https://github.com/Praansu/health-guard-ml"><strong>health guard ml</strong></a><br/>
+      <sub>heart disease prediction, xgboost + shap so it explains itself. still a stub with honest todos.</sub><br/>
+      <sub>xgboost · shap</sub>
     </td>
   </tr>
 </table>
 
-<h2 style="font-size: 1.7em; font-weight: 800; margin: 0 0 18px 0; color: #1a1a2e; border-left: 5px solid #24292e; padding-left: 18px;">Selected Work</h2>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 44px;">
-  <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h4 style="margin: 0 0 6px 0; font-size: 1.05em; font-weight: 700; color: #1a1a2e;"><a href="https://github.com/Praansu/ai-research-agent" style="text-decoration: none; color: #0969da;">AI Research Agent</a></h4>
-    <span style="font-size: 0.78em; color: #57606a; font-weight: 600;">github.com/Praansu/ai-research-agent</span>
-    <p style="margin: 10px 0 0 0; font-size: 0.92em; color: #24292e;">Custom agent loop, no LangChain. Routes between local docs (ChromaDB) and web search, streams every tool call live. Fixed a two-day bug where it kept calling the wrong tool — system prompt was too vague.</p>
-    <p style="margin: 10px 0 0 0; font-size: 0.82em; color: #57606a;">Python · FastAPI · ChromaDB · SSE</p>
-  </div>
-  <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h4 style="margin: 0 0 6px 0; font-size: 1.05em; font-weight: 700; color: #1a1a2e;"><a href="https://github.com/Praansu/pdf-chat-rag" style="text-decoration: none; color: #0969da;">PDF Chat RAG</a></h4>
-    <span style="font-size: 0.78em; color: #57606a; font-weight: 600;">github.com/Praansu/pdf-chat-rag</span>
-    <p style="margin: 10px 0 0 0; font-size: 0.92em; color: #24292e;">Upload a PDF, ask questions. Added delete-docs and streaming after re-uploading the same file ten times. Answers stream token by token.</p>
-    <p style="margin: 10px 0 0 0; font-size: 0.82em; color: #57606a;">Python · FastAPI · ChromaDB · PyMuPDF</p>
-  </div>
-  <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h4 style="margin: 0 0 6px 0; font-size: 1.05em; font-weight: 700; color: #1a1a2e;"><a href="https://github.com/Praansu/vehicle-image-classifier" style="text-decoration: none; color: #0969da;">Vehicle Image Classifier</a></h4>
-    <span style="font-size: 0.78em; color: #57606a; font-weight: 600;">github.com/Praansu/vehicle-image-classifier</span>
-    <p style="margin: 10px 0 0 0; font-size: 0.92em; color: #24292e;">PyTorch ResNet-18, sorts bus/car/bike/truck. 90% on my own 400-image set — labelled every image myself with a PyQt tool I made. Served behind FastAPI, containerised.</p>
-    <p style="margin: 10px 0 0 0; font-size: 0.82em; color: #57606a;">PyTorch · ResNet-18 · FastAPI · Docker</p>
-  </div>
-  <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h4 style="margin: 0 0 6px 0; font-size: 1.05em; font-weight: 700; color: #1a1a2e;"><a href="https://github.com/Praansu/eco-verda" style="text-decoration: none; color: #0969da;">Eco-Verda</a></h4>
-    <span style="font-size: 0.78em; color: #57606a; font-weight: 600;">github.com/Praansu/eco-verda</span>
-    <p style="margin: 10px 0 0 0; font-size: 0.92em; color: #24292e;">Eco products store to learn Next.js properly. Blur-up images, debounced search that syncs to the URL. Broke checkout twice before webhooks finally worked. Stripe not wired yet — known issue.</p>
-    <p style="margin: 10px 0 0 0; font-size: 0.82em; color: #57606a;">Next.js · TypeScript · Prisma · Stripe</p>
-  </div>
-  <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h4 style="margin: 0 0 6px 0; font-size: 1.05em; font-weight: 700; color: #1a1a2e;"><a href="https://github.com/Praansu/ParkX" style="text-decoration: none; color: #0969da;">ParkX</a></h4>
-    <span style="font-size: 0.78em; color: #57606a; font-weight: 600;">github.com/Praansu/ParkX</span>
-    <p style="margin: 10px 0 0 0; font-size: 0.92em; color: #24292e;">Smart parking across ESP32 + FastAPI + dashboard. Local Ollama chatbot with Groq fallback, guardrailed to parking questions only.</p>
-    <p style="margin: 10px 0 0 0; font-size: 0.82em; color: #57606a;">ESP32 · FastAPI · Ollama</p>
-  </div>
-  <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.04);">
-    <h4 style="margin: 0 0 6px 0; font-size: 1.05em; font-weight: 700; color: #1a1a2e;"><a href="https://github.com/Praansu/health-guard-ml" style="text-decoration: none; color: #0969da;">Health Guard ML</a></h4>
-    <span style="font-size: 0.78em; color: #57606a; font-weight: 600;">github.com/Praansu/health-guard-ml</span>
-    <p style="margin: 10px 0 0 0; font-size: 0.92em; color: #24292e;">Heart disease prediction, XGBoost + SHAP so it explains itself. Still a stub with honest TODOs.</p>
-    <p style="margin: 10px 0 0 0; font-size: 0.82em; color: #57606a;">XGBoost · SHAP</p>
-  </div>
-</div>
+## tech stack
 
-<h2 style="font-size: 1.7em; font-weight: 800; margin: 0 0 14px 0; color: #1a1a2e; border-left: 5px solid #24292e; padding-left: 18px;">Smaller Stuff</h2>
+<table border="0" cellpadding="12" cellspacing="0">
+  <tr>
+    <td valign="top">
+      <strong>languages</strong><br/>
+      <a><img src="https://img.shields.io/badge/tech-python-3776AB?style=flat-square&logo=python&logoColor=white" alt="python"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-typescript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="typescript"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-html-E34F26?style=flat-square&logo=html5&logoColor=white" alt="html"/></a>
+    </td>
+    <td width="40"></td>
+    <td valign="top">
+      <strong>ai / ml</strong><br/>
+      <a><img src="https://img.shields.io/badge/tech-pytorch-EE4C2C?style=flat-square" alt="pytorch"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-xgboost-7B5EE7?style=flat-square" alt="xgboost"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-shap-1A1A1A?style=flat-square" alt="shap"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-chromadb-5B21B6?style=flat-square" alt="chromadb"/></a>
+    </td>
+    <td width="40"></td>
+    <td valign="top">
+      <strong>backend &amp; tools</strong><br/>
+      <a><img src="https://img.shields.io/badge/tech-fastapi-009688?style=flat-square&logo=fastapi&logoColor=white" alt="fastapi"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-nextjs-000000?style=flat-square&logo=next.js&logoColor=white" alt="nextjs"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-docker-0DB7ED?style=flat-square&logo=docker&logoColor=white" alt="docker"/></a><br/>
+      <a><img src="https://img.shields.io/badge/tech-esp32-F7931E?style=flat-square" alt="esp32"/></a>
+    </td>
+  </tr>
+</table>
 
-<ul style="list-style: none; padding: 0; margin-bottom: 44px;">
-  <li style="margin-bottom: 12px; font-size: 0.95em;"><strong style="color: #1a1a2e;">nnunet-road-cracks</strong> — Crack-segmentation packaging over nnunet.</li>
-  <li style="margin-bottom: 12px; font-size: 0.95em;"><strong style="color: #1a1a2e;">demand-predictor-ml</strong> — Parking demand forecasting with XGBoost and scikit-learn.</li>
-  <li style="margin-bottom: 12px; font-size: 0.95em;"><strong style="color: #1a1a2e;">small-agent-reliability</strong> — Testing if 3B-9B models can work as agents. 14 tasks. They kept breaking in weird ways.</li>
-  <li style="margin-bottom: 12px; font-size: 0.95em;"><strong style="color: #1a1a2e;">vehicle-labeling-tool</strong> — Tiny PyQt app I made to label training data faster. <span style="color: #57606a;">(archived)</span></li>
-</ul>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 
-<h2 style="font-size: 1.7em; font-weight: 800; margin: 0 0 14px 0; color: #1a1a2e; border-left: 5px solid #24292e; padding-left: 18px;">Stack</h2>
+## currently exploring
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px;">
-  <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 14px; border-radius: 8px; font-size: 0.82em; border: 1px solid #cbd5e0; font-weight: 600;">Python</span>
-  <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 14px; border-radius: 8px; font-size: 0.82em; border: 1px solid #cbd5e0; font-weight: 600;">TypeScript</span>
-  <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 14px; border-radius: 8px; font-size: 0.82em; border: 1px solid #cbd5e0; font-weight: 600;">PyTorch</span>
-  <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 14px; border-radius: 8px; font-size: 0.82em; border: 1px solid #cbd5e0; font-weight: 600;">FastAPI</span>
-  <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 14px; border-radius: 8px; font-size: 0.82em; border: 1px solid #cbd5e0; font-weight: 600;">Next.js</span>
-  <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 14px; border-radius: 8px; font-size: 0.82em; border: 1px solid #cbd5e0; font-weight: 600;">ChromaDB</span>
-  <span style="background: #eef1f5; color: #1a1a2e; padding: 6px 14px; border-radius: 8px; font-size: 0.82em; border: 1px solid #cbd5e0; font-weight: 600;">Docker</span>
-</div>
+small-agent-reliability: testing if 3b-9b models can work as agents. 14 tasks. they kept breaking in weird ways.<br/>
+demand-predictor-ml — time-series forecasting for parking occupancy. linear, random forest, xgboost comparison.<br/>
+nnunet-road-cracks — one-click nnunet v2 package for road crack and pavement distress segmentation.
 
-<p style="font-size: 0.9em; color: #57606a; margin-bottom: 8px; margin-top: 0;">Have used:</p>
-<p style="font-size: 0.95em; color: #57606a; margin: 0;">scikit-learn, XGBoost, OpenCV, Prisma, Streamlit, Flask, SQLite, ESP32, Java, C++</p>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 
-<p style="margin-top: 22px; font-size: 0.9em; color: #57606a; font-style: italic;">If it's listed, I've shipped something with it.</p>
+## github activity
 
-</div>
+15 public repositories · 1 star (parkx) · joined june 2025
 
-<div style="max-width: 740px; margin: 56px auto 0 auto; text-align: center; padding-top: 32px; border-top: 1px solid #e1e4e8;">
-  <a href="mailto:Praansu12@gmail.com" style="text-decoration: none; color: #1a1a2e; margin: 0 16px; font-weight: 600;">Email</a>
-  <a href="https://praansu.github.io" style="text-decoration: none; color: #1a1a2e; margin: 0 16px; font-weight: 600;">Portfolio</a>
-  <a href="https://np.linkedin.com/in/praansu-karmacharya-694944368" style="text-decoration: none; color: #1a1a2e; margin: 0 16px; font-weight: 600;">LinkedIn</a>
-</div>
+<img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
+
+## connect
+
+<a href="mailto:Praansu12@gmail.com"><img src="https://img.shields.io/badge/contact-email-d14836?style=flat-square&logo=gmail&logoColor=white" alt="email" height="32"/></a>
+<a href="https://np.linkedin.com/in/praansu-karmacharya-694944368/"><img src="https://img.shields.io/badge/linkedin-connect-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" height="32"/></a>
+<a href="https://praansu.github.io"><img src="https://img.shields.io/badge/portfolio-visit-ff7139?style=flat-square&logo=googlechrome&logoColor=white" alt="portfolio" height="32"/></a>
