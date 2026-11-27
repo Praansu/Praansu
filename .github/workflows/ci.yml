@@ -12,7 +12,7 @@ jobs:
   validate-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Check README exists
         run: test -f README.md
@@ -40,7 +40,7 @@ jobs:
   check-assets:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: List assets
         run: ls -la assets/
