@@ -1,0 +1,56 @@
+name: Profile README CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly Monday 6 AM UTC
+
+jobs:
+  validate-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check README exists
+        run: test -f README.md
+
+      - name: Validate markdown syntax
+        uses: actions/markdownlint@v1
+        with:
+          files: README.md
+
+      - name: Check for broken links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          config-file: '.github/markdown-link-check-config.json'
+
+      - name: Verify assets exist
+        run: |
+          for asset in $(grep -oP 'assets/[^)"\s]+' README.md | sort -u); do
+            if [ ! -f "$asset" ]; then
+              echo "Missing asset: $asset"
+              exit 1
+            fi
+          done
+          echo "All assets found"
+
+  check-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List assets
+        run: ls -la assets/
+
+      - name: Verify SVG validity
+        run: |
+          for f in assets/*.svg; do
+            if ! xmllint --noout "$f" 2>/dev/null; then
+              echo "Invalid SVG: $f"
+              exit 1
+            fi
+          done
+          echo "All SVGs valid"

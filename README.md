@@ -1,3 +1,9 @@
+<!--
+  GitHub Profile README for Praansu
+  Repo must be named exactly: Praansu (your username)
+  Must be public
+-->
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/banner.svg" alt="Praansu Karmacharya" width="100%"/>
 </p>
@@ -147,13 +153,13 @@ At Aviyaan Tech I work on ensemble methods for traffic-count estimation and road
       <img src="https://img.shields.io/badge/ChromaDB-1F2328?style=flat-square" alt="ChromaDB"/>
     </td>
     <td valign="top" width="25%">
-      <strong style="font-size:0.88em; letter-spacing:0.05em;">Backend &amp; Frameworks</strong><br/>
+      <strong style="font-size:0.88em; letter-spacing:0.05em;">Backend & Frameworks</strong><br/>
       <img src="https://img.shields.io/badge/FastAPI-1F2328?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>&nbsp;
       <img src="https://img.shields.io/badge/Next.js-1F2328?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>&nbsp;
       <img src="https://img.shields.io/badge/Docker-1F2328?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
     </td>
     <td valign="top" width="25%">
-      <strong style="font-size:0.88em; letter-spacing:0.05em;">Infrastructure &amp; Tools</strong><br/>
+      <strong style="font-size:0.88em; letter-spacing:0.05em;">Infrastructure & Tools</strong><br/>
       <img src="https://img.shields.io/badge/ESP32-1F2328?style=flat-square" alt="ESP32"/>&nbsp;
       <img src="https://img.shields.io/badge/Prisma-1F2328?style=flat-square" alt="Prisma"/>&nbsp;
       <img src="https://img.shields.io/badge/SQLite-1F2328?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>&nbsp;
@@ -166,10 +172,16 @@ At Aviyaan Tech I work on ensemble methods for traffic-count estimation and road
 
 <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 
-## 05 · github activity
+## 05 · github stats
 
-15 public repositories · 1 star on ParkX · joined June 2025<br/>
-Most recently pushed: small-agent-reliability · demand-predictor-ml · Praansu.github.io
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Praansu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praansu&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praansu&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
+</p>
 
 <img src="https://raw.githubusercontent.com/Praansu/Praansu/main/assets/divider.svg" width="100%"/>
 

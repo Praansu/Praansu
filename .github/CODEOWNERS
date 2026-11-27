@@ -1,0 +1,30 @@
+# CODEOWNERS template — copy to each repo's .github/CODEOWNERS
+# Adjust paths and usernames as needed
+
+# Global owner
+* @Praansu
+
+# Documentation
+*.md @Praansu
+docs/ @Praansu
+
+# CI/CD
+.github/ @Praansu
+
+# Python projects
+*.py @Praansu
+requirements*.txt @Praansu
+pyproject.toml @Praansu
+
+# Node projects
+package*.json @Praansu
+*.js *.jsx *.ts *.tsx @Praansu
+*.json @Praansu
+
+# Docker
+Dockerfile @Praansu
+docker-compose*.yml @Praansu
+
+# Configuration
+*.yml *.yaml @Praansu
+*.toml @Praansu

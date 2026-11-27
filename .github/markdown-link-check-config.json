@@ -1,0 +1,21 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "github-readme-stats.vercel.app",
+      "reason": "External service, may be rate limited"
+    },
+    {
+      "pattern": "github-readme-streak-stats.herokuapp.com",
+      "reason": "External service, may be rate limited"
+    },
+    {
+      "pattern": "img.shields.io",
+      "reason": "Shields.io badges, may be temporarily unavailable"
+    }
+  ],
+  "retryOnFailure": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": 1000,
+  "aliveStatusCodes": [200, 301, 302],
+  "timeout": "30s"
+}
